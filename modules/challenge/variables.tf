@@ -1,5 +1,6 @@
 variable "name" {
-  description = "Connector Name"
+  description = "Name of Connector"
   type        = string
   default     = "Challenge"
 }
+
