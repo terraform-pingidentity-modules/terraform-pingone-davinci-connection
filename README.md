@@ -66,3 +66,30 @@ module "pingone_connector" {
   source = "terraform-pingidentity-modules/davinci-connector/pingone//modules/challenge"
 }
 ```
+<!-- BEGIN_TF_DOCS -->
+## Requirements
+
+| Name | Version |
+|------|---------|
+| <a name="requirement_davinci"></a> [davinci](#requirement\_davinci) | >= 0.0.7 |
+
+## Providers
+
+No providers.
+
+## Modules
+
+No modules.
+
+## Resources
+
+No resources.
+
+## Inputs
+
+No inputs.
+
+## Outputs
+
+No outputs.
+<!-- END_TF_DOCS -->
