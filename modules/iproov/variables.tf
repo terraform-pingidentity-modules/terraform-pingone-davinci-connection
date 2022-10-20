@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "iProov"
@@ -26,6 +26,7 @@ variable "apiKey" {
 
 variable "secret" {
   description = "Secret"
+  type        = string
 }
 
 variable "username" {
@@ -85,22 +86,22 @@ variable "color4" {
 
 variable "showCountdown" {
   description = "Show Countdown"
-  type        = "boolean"
+  type        = string
 }
 
 variable "allowLandscape" {
   description = "Allow Landscape"
-  type        = "boolean"
+  type        = string
 }
 
 variable "enableCameraSelector" {
   description = "Enable Camera Selector"
-  type        = "boolean"
+  type        = string
 }
 
 variable "kioskMode" {
   description = "Kiosk Mode"
-  type        = "boolean"
+  type        = string
 }
 
 variable "title" {
@@ -130,12 +131,12 @@ variable "details2" {
 
 variable "showCredAddedVia" {
   description = "Show Credentials Added through ?"
-  type        = "boolean"
+  type        = string
 }
 
 variable "showCredAddedOn" {
   description = "Show Credentials Added On?"
-  type        = "boolean"
+  type        = string
 }
 
 variable "iconUrl" {

@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "iovation"
@@ -29,7 +29,9 @@ variable "javascriptCdnUrl" {
   type        = string
 }
 
-variable "version" {
+# Connector uses terraform reserved variable 'version'. Prefixing with 'iovation_'
+
+variable "iovation_version" {
   description = "Version"
   type        = string
 }

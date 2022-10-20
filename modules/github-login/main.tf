@@ -1,9 +1,10 @@
 resource "davinci_connection" "connector-github-login" {
-  name         = var.name
+  name         = var.connector_name
   connector_id = "githubIdpConnector"
   properties {
     name  = "oauth2"
     value = var.oauth2
+    type  = "list"
   }
 }
 

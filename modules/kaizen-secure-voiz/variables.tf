@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "Kaizen Secure Voiz"
@@ -51,12 +51,12 @@ variable "details2" {
 
 variable "showCredAddedVia" {
   description = "Show Credentials Added through ?"
-  type        = "boolean"
+  type        = string
 }
 
 variable "showCredAddedOn" {
   description = "Show Credentials Added On?"
-  type        = "boolean"
+  type        = string
 }
 
 variable "iconUrl" {

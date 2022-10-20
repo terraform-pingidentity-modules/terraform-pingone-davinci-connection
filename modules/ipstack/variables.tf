@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "ipstack"
@@ -11,5 +11,6 @@ variable "apiKey" {
 
 variable "allowInsecureIPStackConnection" {
   description = "Allow Insecure ipstack Connection?"
+  type        = string
 }
 

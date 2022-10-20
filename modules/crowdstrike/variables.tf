@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "CrowdStrike"
@@ -6,6 +6,7 @@ variable "name" {
 
 variable "baseURL" {
   description = "CrowdStrike Base URL"
+  type        = string
 }
 
 variable "clientId" {

@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "Onfido"
@@ -41,7 +41,7 @@ variable "androidPackageName" {
 
 variable "useModal" {
   description = "Modal"
-  type        = "boolean"
+  type        = string
 }
 
 variable "javascriptCdnUrl" {
@@ -66,7 +66,7 @@ variable "viewDescriptions" {
 
 variable "useLanguage" {
   description = "Customize Language"
-  type        = "boolean"
+  type        = string
 }
 
 variable "language" {
@@ -76,22 +76,22 @@ variable "language" {
 
 variable "shouldCloseOnOverlayClick" {
   description = "Close on Overlay Click"
-  type        = "boolean"
+  type        = string
 }
 
 variable "customizeSteps" {
   description = "Customize Steps"
-  type        = "boolean"
+  type        = string
 }
 
 variable "stepsList" {
   description = "ID Verification Steps"
-  type        = "boolean"
+  type        = string
 }
 
 variable "retrieveReports" {
   description = "Retrieve Reports"
-  type        = "boolean"
+  type        = string
 }
 
 variable "title" {
@@ -121,12 +121,12 @@ variable "details2" {
 
 variable "showCredAddedVia" {
   description = "Show Credentials Added through ?"
-  type        = "boolean"
+  type        = string
 }
 
 variable "showCredAddedOn" {
   description = "Show Credentials Added On?"
-  type        = "boolean"
+  type        = string
 }
 
 variable "iconUrl" {
@@ -140,6 +140,6 @@ variable "iconUrlPng" {
 }
 
 variable "referenceStepsList" {
-  type = "array"
+  type = string
 }
 

@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "LexisNexis"
@@ -11,6 +11,7 @@ variable "apiUrl" {
 
 variable "orgId" {
   description = "Organization ID"
+  type        = string
 }
 
 variable "apiKey" {
@@ -25,10 +26,12 @@ variable "javascriptCdnUrl" {
 
 variable "apiUrl2" {
   description = "API Base URL"
+  type        = string
 }
 
 variable "accountId" {
   description = "Account ID"
+  type        = string
 }
 
 variable "username" {
@@ -43,6 +46,7 @@ variable "password" {
 
 variable "apiUrl3" {
   description = "API Base URL"
+  type        = string
 }
 
 variable "clientId" {
@@ -57,25 +61,31 @@ variable "clientSecret" {
 
 variable "apiUrl4" {
   description = "API Base URL"
+  type        = string
 }
 
 variable "orgId2" {
   description = "Organization ID"
+  type        = string
 }
 
 variable "apiKey2" {
   description = "API Key"
+  type        = string
 }
 
 variable "trueIdUsername" {
   description = "Username"
+  type        = string
 }
 
 variable "trueIdPassword" {
   description = "Password"
+  type        = string
 }
 
 variable "acasEndpoint" {
   description = "ACAS Endpoint"
+  type        = string
 }
 

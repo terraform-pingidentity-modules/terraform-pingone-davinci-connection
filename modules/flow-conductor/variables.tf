@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "Flow Conductor"
@@ -16,6 +16,6 @@ variable "pemPublicKey" {
 
 variable "enforcedSignedToken" {
   description = "Enforce Signed Token"
-  type        = "boolean"
+  type        = string
 }
 

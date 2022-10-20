@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "ID.me"
@@ -6,6 +6,6 @@ variable "name" {
 
 variable "oauth2" {
   description = "Oauth2 Parameters"
-  type        = "array"
+  type        = string
 }
 

@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "Splunk"
@@ -11,7 +11,7 @@ variable "apiUrl" {
 
 variable "port" {
   description = "Port"
-  type        = "number"
+  type        = string
 }
 
 variable "token" {

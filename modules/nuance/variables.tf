@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "Nuance"
@@ -6,26 +6,32 @@ variable "name" {
 
 variable "configSetName" {
   description = "Config Set Name"
+  type        = string
 }
 
 variable "passphrase1" {
   description = "Passphrase One"
+  type        = string
 }
 
 variable "passphrase2" {
   description = "Passphrase Two"
+  type        = string
 }
 
 variable "passphrase3" {
   description = "Passphrase Three"
+  type        = string
 }
 
 variable "passphrase4" {
   description = "Passphrase Four"
+  type        = string
 }
 
 variable "passphrase5" {
   description = "Passphrase Five"
+  type        = string
 }
 
 variable "connectorName" {
@@ -65,12 +71,12 @@ variable "details2" {
 
 variable "showCredAddedVia" {
   description = "Show Credentials Added through ?"
-  type        = "boolean"
+  type        = string
 }
 
 variable "showCredAddedOn" {
   description = "Show Credentials Added On?"
-  type        = "boolean"
+  type        = string
 }
 
 variable "iconUrl" {

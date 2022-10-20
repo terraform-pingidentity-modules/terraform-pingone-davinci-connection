@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "Arkose Labs"
@@ -11,5 +11,6 @@ variable "company" {
 
 variable "privateKey" {
   description = "Private Key"
+  type        = string
 }
 

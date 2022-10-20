@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "AuthenticID"
@@ -26,14 +26,17 @@ variable "secretToken" {
 
 variable "clientCertificate" {
   description = "Client Certificate"
+  type        = string
 }
 
 variable "clientKey" {
   description = "Client Key"
+  type        = string
 }
 
 variable "passphrase" {
   description = "Certificate Passphrase"
+  type        = string
 }
 
 variable "iOSSDKLicenseKey" {

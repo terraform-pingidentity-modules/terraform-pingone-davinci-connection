@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "AWS Login"
@@ -6,6 +6,6 @@ variable "name" {
 
 variable "openId" {
   description = "OpenId Parameters"
-  type        = "array"
+  type        = string
 }
 

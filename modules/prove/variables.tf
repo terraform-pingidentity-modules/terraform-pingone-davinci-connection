@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "Prove"
@@ -31,7 +31,7 @@ variable "appClientId" {
 
 variable "simulatorMode" {
   description = "Simulator Mode?"
-  type        = "boolean"
+  type        = string
 }
 
 variable "simulatorPhoneNumber" {

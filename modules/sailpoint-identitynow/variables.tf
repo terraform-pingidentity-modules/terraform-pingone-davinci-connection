@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "SailPoint IdentityNow"
@@ -6,6 +6,7 @@ variable "name" {
 
 variable "tenant" {
   description = "IdentityNow Tenant"
+  type        = string
 }
 
 variable "clientId" {

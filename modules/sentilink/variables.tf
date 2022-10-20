@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "SentiLink"
@@ -11,6 +11,7 @@ variable "apiUrl" {
 
 variable "account" {
   description = "Account ID"
+  type        = string
 }
 
 variable "token" {

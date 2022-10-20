@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "Symantec VIP"
@@ -26,7 +26,7 @@ variable "pfxPassword" {
 
 variable "pushLoginEnabled" {
   description = "Enable Push Sign On"
-  type        = "boolean"
+  type        = string
 }
 
 variable "title" {
@@ -56,12 +56,12 @@ variable "details2" {
 
 variable "showCredAddedVia" {
   description = "Show Credentials Added through ?"
-  type        = "boolean"
+  type        = string
 }
 
 variable "showCredAddedOn" {
   description = "Show Credentials Added On?"
-  type        = "boolean"
+  type        = string
 }
 
 variable "iconUrl" {

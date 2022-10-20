@@ -1,9 +1,10 @@
 resource "davinci_connection" "connector-hypr" {
-  name         = var.name
+  name         = var.connector_name
   connector_id = "hyprConnector"
   properties {
     name  = "customAuth"
     value = var.customAuth
+    type  = "list"
   }
 }
 
