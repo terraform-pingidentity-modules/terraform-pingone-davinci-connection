@@ -1,9 +1,10 @@
 resource "davinci_connection" "connector-twitter-login" {
-  name         = var.name
+  name         = var.connector_name
   connector_id = "twitterIdpConnector"
   properties {
     name  = "customAuth"
     value = var.customAuth
+    type  = "list"
   }
 }
 

@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "Google Workspace Admin"
@@ -16,5 +16,6 @@ variable "sub" {
 
 variable "privateKey" {
   description = "Private Key"
+  type        = string
 }
 

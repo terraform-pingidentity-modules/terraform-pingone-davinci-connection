@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "UnifyID"
@@ -16,6 +16,7 @@ variable "toolTip" {
 
 variable "accountId" {
   description = "Account ID"
+  type        = string
 }
 
 variable "apiKey" {
@@ -40,12 +41,12 @@ variable "details2" {
 
 variable "showCredAddedVia" {
   description = "Show Credentials Added through ?"
-  type        = "boolean"
+  type        = string
 }
 
 variable "showCredAddedOn" {
   description = "Show Credentials Added On?"
-  type        = "boolean"
+  type        = string
 }
 
 variable "iconUrl" {

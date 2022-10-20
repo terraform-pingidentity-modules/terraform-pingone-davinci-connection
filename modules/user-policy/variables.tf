@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "User Policy"
@@ -6,66 +6,66 @@ variable "name" {
 
 variable "passwordsEnabled" {
   description = "Passwords Feature Enabled?"
-  type        = "boolean"
+  type        = string
 }
 
 variable "passwordLengthMin" {
   description = "Minimum Password Length"
-  type        = "number"
+  type        = string
 }
 
 variable "passwordLengthMax" {
   description = "Maximum Password Length"
-  type        = "number"
+  type        = string
 }
 
 variable "passwordRequireNumbers" {
   description = "Require Numbers"
-  type        = "boolean"
+  type        = string
 }
 
 variable "passwordRequireSpecial" {
   description = "Require Special Characters"
-  type        = "boolean"
+  type        = string
 }
 
 variable "passwordRequireUppercase" {
   description = "Require Uppercase Characters"
-  type        = "boolean"
+  type        = string
 }
 
 variable "passwordRequireLowercase" {
   description = "Require Lowercase Characters"
-  type        = "boolean"
+  type        = string
 }
 
 variable "passwordSpacesOk" {
   description = "Spaces Accepted"
-  type        = "boolean"
+  type        = string
 }
 
 variable "passwordExpiryInDays" {
   description = "Expires in the specified number of days"
-  type        = "number"
+  type        = string
 }
 
 variable "passwordExpiryNotification" {
   description = "Notify user before password expires"
-  type        = "boolean"
+  type        = string
 }
 
 variable "passwordPreviousXPasswords" {
   description = "Number of unique user passwords associated with a user"
-  type        = "number"
+  type        = string
 }
 
 variable "temporaryPasswordExpiryInDays" {
   description = "Temporary password expires in the specified number of days"
-  type        = "number"
+  type        = string
 }
 
 variable "passwordLockoutAttempts" {
   description = "Number of failed login attempts before account is locked"
-  type        = "number"
+  type        = string
 }
 

@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "Have I Been Pwned"
@@ -15,5 +15,6 @@ variable "apiKey" {
 }
 
 variable "userAgent" {
+  type = string
 }
 

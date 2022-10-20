@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "HUMAN"
@@ -6,13 +6,16 @@ variable "name" {
 
 variable "humanCustomerID" {
   description = "HUMAN Customer ID"
+  type        = string
 }
 
 variable "humanAuthenticationToken" {
   description = "HUMAN Authentication Token"
+  type        = string
 }
 
 variable "humanPolicyName" {
   description = "HUMAN Policy Name"
+  type        = string
 }
 

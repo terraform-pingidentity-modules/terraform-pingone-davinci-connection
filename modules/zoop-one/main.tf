@@ -1,17 +1,20 @@
 resource "davinci_connection" "connector-zoop-one" {
-  name         = var.name
+  name         = var.connector_name
   connector_id = "zoopConnector"
   properties {
     name  = "apiUrl"
     value = var.apiUrl
+    type  = "string"
   }
   properties {
     name  = "apiKey"
     value = var.apiKey
+    type  = "string"
   }
   properties {
     name  = "agencyId"
     value = var.agencyId
+    type  = "string"
   }
 }
 

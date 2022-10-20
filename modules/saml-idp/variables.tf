@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "SAML IdP"
@@ -6,6 +6,6 @@ variable "name" {
 
 variable "saml" {
   description = "SAML Parameters"
-  type        = "array"
+  type        = string
 }
 

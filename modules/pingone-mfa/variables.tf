@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "PingOne MFA"
@@ -11,6 +11,7 @@ variable "envId" {
 
 variable "policyId" {
   description = "Policy ID"
+  type        = string
 }
 
 variable "clientId" {

@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "RSA"
@@ -6,10 +6,12 @@ variable "name" {
 
 variable "accessId" {
   description = "Access ID"
+  type        = string
 }
 
 variable "accessKey" {
   description = "Access Key"
+  type        = string
 }
 
 variable "baseUrl" {

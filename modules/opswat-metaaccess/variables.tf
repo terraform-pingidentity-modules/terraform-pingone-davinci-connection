@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "OPSWAT MetaAccess"
@@ -6,6 +6,7 @@ variable "name" {
 
 variable "clientID" {
   description = "Oauth Client Key"
+  type        = string
 }
 
 variable "clientSecret" {
@@ -15,9 +16,11 @@ variable "clientSecret" {
 
 variable "maDomain" {
   description = "MetaAccess Domain"
+  type        = string
 }
 
 variable "crossDomainApiPort" {
   description = "Cross-Domain API Port"
+  type        = string
 }
 

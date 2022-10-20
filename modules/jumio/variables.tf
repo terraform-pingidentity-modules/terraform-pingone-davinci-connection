@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "Jumio"
@@ -16,6 +16,7 @@ variable "authUrl" {
 
 variable "callbackUrl" {
   description = "Callback URL"
+  type        = string
 }
 
 variable "toolTip" {
@@ -60,12 +61,12 @@ variable "details2" {
 
 variable "showCredAddedVia" {
   description = "Show Credentials Added through ?"
-  type        = "boolean"
+  type        = string
 }
 
 variable "showCredAddedOn" {
   description = "Show Credentials Added On?"
-  type        = "boolean"
+  type        = string
 }
 
 variable "iconUrl" {
@@ -85,12 +86,12 @@ variable "docVerificationUrl" {
 
 variable "doNotShowInIframe" {
   description = "Do not show in iFrame"
-  type        = "boolean"
+  type        = string
 }
 
 variable "authorizationTokenLifetime" {
   description = "Time Transaction URL Valid (seconds)"
-  type        = "number"
+  type        = string
 }
 
 variable "baseColor" {

@@ -1,5 +1,5 @@
 resource "davinci_connection" "connector-location-policy" {
-  name         = var.name
+  name         = var.connector_name
   connector_id = "locationPolicyConnector"
 }
 

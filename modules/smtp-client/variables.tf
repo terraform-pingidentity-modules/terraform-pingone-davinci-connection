@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "SMTP Client"
@@ -16,12 +16,12 @@ variable "hostname" {
 
 variable "port" {
   description = "SMTP Port"
-  type        = "number"
+  type        = string
 }
 
 variable "secureFlag" {
   description = "Secure Flag?"
-  type        = "boolean"
+  type        = string
 }
 
 variable "username" {

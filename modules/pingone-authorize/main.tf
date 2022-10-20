@@ -1,21 +1,20 @@
 resource "davinci_connection" "connector-pingone-authorize" {
-  name         = var.name
+  name         = var.connector_name
   connector_id = "pingOneAuthorizeConnector"
-  properties {
-    name  = "envId"
-    value = var.envId
-  }
   properties {
     name  = "clientId"
     value = var.clientId
+    type  = "string"
   }
   properties {
     name  = "clientSecret"
     value = var.clientSecret
+    type  = "string"
   }
   properties {
     name  = "endpointURL"
     value = var.endpointURL
+    type  = "string"
   }
 }
 

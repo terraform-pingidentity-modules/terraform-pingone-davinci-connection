@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "PingOne LDAP Gateway"
@@ -26,5 +26,6 @@ variable "region" {
 
 variable "gatewayId" {
   description = "Gateway ID"
+  type        = string
 }
 

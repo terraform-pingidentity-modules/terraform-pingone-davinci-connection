@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "PingOne Authorize"
@@ -16,5 +16,6 @@ variable "clientSecret" {
 
 variable "endpointURL" {
   description = "Endpoint URL"
+  type        = string
 }
 

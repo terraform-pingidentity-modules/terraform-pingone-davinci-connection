@@ -1,5 +1,5 @@
 resource "davinci_connection" "connector-randomuser-me" {
-  name         = var.name
+  name         = var.connector_name
   connector_id = "connectorRandomUserMe"
 }
 

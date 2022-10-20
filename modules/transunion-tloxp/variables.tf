@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "TransUnion TLOxp"
@@ -21,9 +21,11 @@ variable "password" {
 
 variable "dppaCode" {
   description = "DPPA Purpose Code"
+  type        = string
 }
 
 variable "glbCode" {
   description = "GLB Purpose Code"
+  type        = string
 }
 

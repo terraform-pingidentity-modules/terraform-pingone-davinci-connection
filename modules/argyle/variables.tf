@@ -1,4 +1,4 @@
-variable "name" {
+variable "connector_name" {
   description = "Name of Connector"
   type        = string
   default     = "Argyle"
@@ -11,10 +11,12 @@ variable "apiUrl" {
 
 variable "pluginKey" {
   description = "Plugin Key"
+  type        = string
 }
 
 variable "javascriptWebUrl" {
   description = "Argyle Loader Javascript Web URL"
+  type        = string
 }
 
 variable "clientId" {
