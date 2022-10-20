@@ -6,7 +6,7 @@ header-from: main.tf
 footer-from: ""
 
 recursive:
-  enabled: false
+  enabled: true
   path: modules
 
 sections:
@@ -19,7 +19,7 @@ sections:
 content: ""
 
 output:
-  file: ""
+  file: "README.md"
   mode: inject
   template: |-
     <!-- BEGIN_TF_DOCS -->
