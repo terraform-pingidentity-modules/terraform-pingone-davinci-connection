@@ -27,7 +27,7 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_apiUrl"></a> [apiUrl](#input\_apiUrl) | API Server URL | `string` | n/a | yes |
 | <a name="input_connector_name"></a> [connector\_name](#input\_connector\_name) | Name of Connector | `string` | `"iovation"` | no |
-| <a name="input_iovation_version"></a> [iovation\_version](#input\_iovation\_version) | Version | `string` | n/a | yes |
+| <a name="input_iovationConnector_version"></a> [iovationConnector\_version](#input\_iovationConnector\_version) | Version | `string` | n/a | yes |
 | <a name="input_javascriptCdnUrl"></a> [javascriptCdnUrl](#input\_javascriptCdnUrl) | iovation loader Javascript CDN URL | `string` | n/a | yes |
 | <a name="input_subKey"></a> [subKey](#input\_subKey) | Sub Key | `string` | n/a | yes |
 | <a name="input_subscriberAccount"></a> [subscriberAccount](#input\_subscriberAccount) | Subscriber Account | `string` | n/a | yes |

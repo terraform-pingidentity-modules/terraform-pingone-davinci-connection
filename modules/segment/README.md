@@ -25,7 +25,7 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_Segment_version"></a> [Segment\_version](#input\_Segment\_version) | HTTP Tracking API Version | `string` | n/a | yes |
+| <a name="input_connectorSegment_version"></a> [connectorSegment\_version](#input\_connectorSegment\_version) | HTTP Tracking API Version | `string` | n/a | yes |
 | <a name="input_connector_name"></a> [connector\_name](#input\_connector\_name) | Name of Connector | `string` | `"Segment"` | no |
 | <a name="input_writeKey"></a> [writeKey](#input\_writeKey) | Write Key | `string` | n/a | yes |
 

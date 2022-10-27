@@ -25,8 +25,8 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_Clearbit_version"></a> [Clearbit\_version](#input\_Clearbit\_version) | Person API Version | `string` | n/a | yes |
 | <a name="input_apiKey"></a> [apiKey](#input\_apiKey) | API Key | `string` | n/a | yes |
+| <a name="input_connectorClearbit_version"></a> [connectorClearbit\_version](#input\_connectorClearbit\_version) | Person API Version | `string` | n/a | yes |
 | <a name="input_connector_name"></a> [connector\_name](#input\_connector\_name) | Name of Connector | `string` | `"Clearbit"` | no |
 | <a name="input_riskApiVersion"></a> [riskApiVersion](#input\_riskApiVersion) | Risk API Version | `string` | n/a | yes |
 
