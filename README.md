@@ -45,7 +45,7 @@ provider "davinci" {
 ###############################################################################
 
 module "pingone_connection" {
-  source = "terraform-pingidentity-modules/davinci-connector/pingone//modules/pingone"
+  source = "terraform-pingidentity-modules/davinci-connection/pingone//modules/pingone"
 
   name         = "PingOne - Sandbox"
   envId        = var.pingone_env_id
