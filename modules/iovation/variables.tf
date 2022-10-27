@@ -29,9 +29,9 @@ variable "javascriptCdnUrl" {
   type        = string
 }
 
-# Connector uses terraform reserved variable 'version'. Prefixing with 'iovation_'
+# Connector uses terraform reserved variable 'version'. Prefixing with 'iovationConnector_'
 
-variable "iovation_version" {
+variable "iovationConnector_version" {
   description = "Version"
   type        = string
 }

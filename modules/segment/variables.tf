@@ -9,9 +9,9 @@ variable "writeKey" {
   type        = string
 }
 
-# Connector uses terraform reserved variable 'version'. Prefixing with 'Segment_'
+# Connector uses terraform reserved variable 'version'. Prefixing with 'connectorSegment_'
 
-variable "Segment_version" {
+variable "connectorSegment_version" {
   description = "HTTP Tracking API Version"
   type        = string
 }

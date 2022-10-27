@@ -1,4 +1,4 @@
-# Connector uses terraform reserved variable 'version'. Prefixing with 'Clearbit_'
+# Connector uses terraform reserved variable 'version'. Prefixing with 'connectorClearbit_'
 
 resource "davinci_connection" "connector-clearbit" {
   name         = var.connector_name
@@ -10,7 +10,7 @@ resource "davinci_connection" "connector-clearbit" {
   }
   properties {
     name  = "version"
-    value = var.Clearbit_version
+    value = var.connectorClearbit_version
     type  = "string"
   }
   properties {

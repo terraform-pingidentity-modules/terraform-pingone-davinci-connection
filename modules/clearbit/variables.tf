@@ -9,9 +9,9 @@ variable "apiKey" {
   type        = string
 }
 
-# Connector uses terraform reserved variable 'version'. Prefixing with 'Clearbit_'
+# Connector uses terraform reserved variable 'version'. Prefixing with 'connectorClearbit_'
 
-variable "Clearbit_version" {
+variable "connectorClearbit_version" {
   description = "Person API Version"
   type        = string
 }
