@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-signicat" {
+resource "davinci_connection" "signicat" {
   name         = var.connector_name
   connector_id = "connectorSignicat"
   properties {

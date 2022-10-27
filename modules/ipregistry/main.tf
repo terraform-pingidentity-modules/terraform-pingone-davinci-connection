@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-ipregistry" {
+resource "davinci_connection" "ipregistry" {
   name         = var.connector_name
   connector_id = "connectorIPregistry"
   properties {

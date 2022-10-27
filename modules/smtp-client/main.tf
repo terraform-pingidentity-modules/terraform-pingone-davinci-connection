@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-smtp-client" {
+resource "davinci_connection" "smtp-client" {
   name         = var.connector_name
   connector_id = "smtpConnector"
   properties {

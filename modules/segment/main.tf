@@ -1,6 +1,6 @@
 # Connector uses terraform reserved variable 'version'. Prefixing with 'connectorSegment_'
 
-resource "davinci_connection" "connector-segment" {
+resource "davinci_connection" "segment" {
   name         = var.connector_name
   connector_id = "connectorSegment"
   properties {

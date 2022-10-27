@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-http" {
+resource "davinci_connection" "http" {
   name         = var.connector_name
   connector_id = "httpConnector"
   properties {

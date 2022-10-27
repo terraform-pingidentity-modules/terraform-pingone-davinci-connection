@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-biocatch" {
+resource "davinci_connection" "biocatch" {
   name         = var.connector_name
   connector_id = "biocatchConnector"
   properties {

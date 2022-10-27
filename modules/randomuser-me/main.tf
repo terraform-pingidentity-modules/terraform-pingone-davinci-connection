@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-randomuser-me" {
+resource "davinci_connection" "randomuser-me" {
   name         = var.connector_name
   connector_id = "connectorRandomUserMe"
 }

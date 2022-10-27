@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-crowdstrike" {
+resource "davinci_connection" "crowdstrike" {
   name         = var.connector_name
   connector_id = "crowdStrikeConnector"
   properties {

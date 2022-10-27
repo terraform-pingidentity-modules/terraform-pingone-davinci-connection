@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-pingfederate" {
+resource "davinci_connection" "pingfederate" {
   name         = var.connector_name
   connector_id = "pingFederateConnectorV2"
   properties {

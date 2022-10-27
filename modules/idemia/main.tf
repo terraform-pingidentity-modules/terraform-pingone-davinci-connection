@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-idemia" {
+resource "davinci_connection" "idemia" {
   name         = var.connector_name
   connector_id = "idemiaConnector"
   properties {

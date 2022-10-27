@@ -19,7 +19,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [davinci_connection.connector-zscaler-zia](https://registry.terraform.io/providers/samir-gandhi/davinci/latest/docs/resources/connection) | resource |
+| [davinci_connection.zscaler-zia](https://registry.terraform.io/providers/samir-gandhi/davinci/latest/docs/resources/connection) | resource |
 
 ## Inputs
 

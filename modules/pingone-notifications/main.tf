@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-pingone-notifications" {
+resource "davinci_connection" "pingone-notifications" {
   name         = var.connector_name
   connector_id = "notificationsConnector"
   properties {

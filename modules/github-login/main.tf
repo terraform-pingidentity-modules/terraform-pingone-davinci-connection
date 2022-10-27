@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-github-login" {
+resource "davinci_connection" "github-login" {
   name         = var.connector_name
   connector_id = "githubIdpConnector"
   properties {

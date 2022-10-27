@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-error-message" {
+resource "davinci_connection" "error-message" {
   name         = var.connector_name
   connector_id = "errorConnector"
 }

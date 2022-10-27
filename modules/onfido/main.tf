@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-onfido" {
+resource "davinci_connection" "onfido" {
   name         = var.connector_name
   connector_id = "onfidoConnector"
   properties {

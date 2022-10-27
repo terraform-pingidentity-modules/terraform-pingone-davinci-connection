@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-bitbucket-login" {
+resource "davinci_connection" "bitbucket-login" {
   name         = var.connector_name
   connector_id = "bitbucketIdpConnector"
   properties {

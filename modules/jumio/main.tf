@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-jumio" {
+resource "davinci_connection" "jumio" {
   name         = var.connector_name
   connector_id = "jumioConnector"
   properties {

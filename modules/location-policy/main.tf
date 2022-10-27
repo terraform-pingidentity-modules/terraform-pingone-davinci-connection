@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-location-policy" {
+resource "davinci_connection" "location-policy" {
   name         = var.connector_name
   connector_id = "locationPolicyConnector"
 }

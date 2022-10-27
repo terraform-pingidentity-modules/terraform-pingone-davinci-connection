@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-daon-identityx" {
+resource "davinci_connection" "daon-identityx" {
   name         = var.connector_name
   connector_id = "daonConnector"
   properties {

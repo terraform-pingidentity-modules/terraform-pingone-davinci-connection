@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-hubspot" {
+resource "davinci_connection" "hubspot" {
   name         = var.connector_name
   connector_id = "connectorHubspot"
   properties {

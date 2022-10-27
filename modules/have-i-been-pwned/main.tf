@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-have-i-been-pwned" {
+resource "davinci_connection" "have-i-been-pwned" {
   name         = var.connector_name
   connector_id = "haveIBeenPwnedConnector"
   properties {

@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-badge" {
+resource "davinci_connection" "badge" {
   name         = var.connector_name
   connector_id = "connectorBadge"
   properties {

@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-tmt-analysis" {
+resource "davinci_connection" "tmt-analysis" {
   name         = var.connector_name
   connector_id = "tmtConnector"
   properties {

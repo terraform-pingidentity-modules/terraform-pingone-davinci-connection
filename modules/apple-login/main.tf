@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-apple-login" {
+resource "davinci_connection" "apple-login" {
   name         = var.connector_name
   connector_id = "appleConnector"
   properties {

@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-hypr" {
+resource "davinci_connection" "hypr" {
   name         = var.connector_name
   connector_id = "hyprConnector"
   properties {

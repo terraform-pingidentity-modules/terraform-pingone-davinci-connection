@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-prove-international" {
+resource "davinci_connection" "prove-international" {
   name         = var.connector_name
   connector_id = "proveConnector"
   properties {

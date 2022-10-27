@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-neoeyed" {
+resource "davinci_connection" "neoeyed" {
   name         = var.connector_name
   connector_id = "neoeyedConnector"
   properties {

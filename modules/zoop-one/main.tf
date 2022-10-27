@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-zoop-one" {
+resource "davinci_connection" "zoop-one" {
   name         = var.connector_name
   connector_id = "zoopConnector"
   properties {

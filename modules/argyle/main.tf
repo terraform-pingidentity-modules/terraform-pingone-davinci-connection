@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-argyle" {
+resource "davinci_connection" "argyle" {
   name         = var.connector_name
   connector_id = "argyleConnector"
   properties {

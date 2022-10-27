@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-vericlouds" {
+resource "davinci_connection" "vericlouds" {
   name         = var.connector_name
   connector_id = "connectorVericlouds"
   properties {

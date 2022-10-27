@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-pingone" {
+resource "davinci_connection" "pingone" {
   name         = var.connector_name
   connector_id = "pingOneSSOConnector"
   properties {

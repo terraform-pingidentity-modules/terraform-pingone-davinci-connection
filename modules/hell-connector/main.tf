@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-hell-connector" {
+resource "davinci_connection" "hell-connector" {
   name         = var.connector_name
   connector_id = "connectorHello"
   properties {

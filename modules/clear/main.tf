@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-clear" {
+resource "davinci_connection" "clear" {
   name         = var.connector_name
   connector_id = "connectorClear"
   properties {

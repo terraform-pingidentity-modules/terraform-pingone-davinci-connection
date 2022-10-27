@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-prove" {
+resource "davinci_connection" "prove" {
   name         = var.connector_name
   connector_id = "payfoneConnector"
   properties {

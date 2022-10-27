@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-kba" {
+resource "davinci_connection" "kba" {
   name         = var.connector_name
   connector_id = "kbaConnector"
   properties {

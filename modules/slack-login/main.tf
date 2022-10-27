@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-slack-login" {
+resource "davinci_connection" "slack-login" {
   name         = var.connector_name
   connector_id = "slackConnector"
   properties {

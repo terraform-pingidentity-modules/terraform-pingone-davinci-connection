@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-microsoft-login" {
+resource "davinci_connection" "microsoft-login" {
   name         = var.connector_name
   connector_id = "microsoftIdpConnector"
   properties {

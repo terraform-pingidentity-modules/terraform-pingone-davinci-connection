@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-data-zoo" {
+resource "davinci_connection" "data-zoo" {
   name         = var.connector_name
   connector_id = "dataZooConnector"
   properties {

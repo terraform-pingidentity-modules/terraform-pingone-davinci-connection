@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-saml-idp" {
+resource "davinci_connection" "saml-idp" {
   name         = var.connector_name
   connector_id = "samlIdpConnector"
   properties {

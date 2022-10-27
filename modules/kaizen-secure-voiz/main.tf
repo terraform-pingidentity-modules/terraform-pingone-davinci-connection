@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-kaizen-secure-voiz" {
+resource "davinci_connection" "kaizen-secure-voiz" {
   name         = var.connector_name
   connector_id = "kaizenVoizConnector"
   properties {

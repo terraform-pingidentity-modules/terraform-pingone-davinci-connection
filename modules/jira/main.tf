@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-jira" {
+resource "davinci_connection" "jira" {
   name         = var.connector_name
   connector_id = "jiraConnector"
   properties {

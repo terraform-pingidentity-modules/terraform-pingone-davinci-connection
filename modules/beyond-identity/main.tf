@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-beyond-identity" {
+resource "davinci_connection" "beyond-identity" {
   name         = var.connector_name
   connector_id = "connectorBeyondIdentity"
   properties {

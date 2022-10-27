@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-human" {
+resource "davinci_connection" "human" {
   name         = var.connector_name
   connector_id = "connectorHuman"
   properties {

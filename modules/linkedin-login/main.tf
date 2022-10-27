@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-linkedin-login" {
+resource "davinci_connection" "linkedin-login" {
   name         = var.connector_name
   connector_id = "linkedInConnector"
   properties {

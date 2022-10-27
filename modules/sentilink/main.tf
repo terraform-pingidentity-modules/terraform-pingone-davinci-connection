@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-sentilink" {
+resource "davinci_connection" "sentilink" {
   name         = var.connector_name
   connector_id = "sentilinkConnector"
   properties {

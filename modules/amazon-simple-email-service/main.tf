@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-amazon-simple-email-service" {
+resource "davinci_connection" "amazon-simple-email-service" {
   name         = var.connector_name
   connector_id = "amazonSimpleEmailConnector"
   properties {

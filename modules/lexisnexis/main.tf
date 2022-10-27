@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-lexisnexis" {
+resource "davinci_connection" "lexisnexis" {
   name         = var.connector_name
   connector_id = "lexisNexisConnector"
   properties {

@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-digilocker" {
+resource "davinci_connection" "digilocker" {
   name         = var.connector_name
   connector_id = "digilockerConnector"
   properties {

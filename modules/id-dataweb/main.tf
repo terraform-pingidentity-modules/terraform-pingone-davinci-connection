@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-id-dataweb" {
+resource "davinci_connection" "id-dataweb" {
   name         = var.connector_name
   connector_id = "idDatawebConnector"
   properties {

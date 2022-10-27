@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-fingerprint-js" {
+resource "davinci_connection" "fingerprint-js" {
   name         = var.connector_name
   connector_id = "fingerprintjsConnector"
   properties {

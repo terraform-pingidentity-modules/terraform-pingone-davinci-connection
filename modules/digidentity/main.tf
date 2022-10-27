@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-digidentity" {
+resource "davinci_connection" "digidentity" {
   name         = var.connector_name
   connector_id = "digidentityConnector"
   properties {

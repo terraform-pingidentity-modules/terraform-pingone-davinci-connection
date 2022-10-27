@@ -1,6 +1,6 @@
 # Connector uses terraform reserved variable 'version'. Prefixing with 'iovationConnector_'
 
-resource "davinci_connection" "connector-iovation" {
+resource "davinci_connection" "iovation" {
   name         = var.connector_name
   connector_id = "iovationConnector"
   properties {

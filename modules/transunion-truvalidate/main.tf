@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-transunion-truvalidate" {
+resource "davinci_connection" "transunion-truvalidate" {
   name         = var.connector_name
   connector_id = "transunionConnector"
   properties {

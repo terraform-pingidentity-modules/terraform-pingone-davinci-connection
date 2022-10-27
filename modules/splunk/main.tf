@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-splunk" {
+resource "davinci_connection" "splunk" {
   name         = var.connector_name
   connector_id = "splunkConnector"
   properties {

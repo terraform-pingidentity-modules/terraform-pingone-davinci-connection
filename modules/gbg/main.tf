@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-gbg" {
+resource "davinci_connection" "gbg" {
   name         = var.connector_name
   connector_id = "gbgConnector"
   properties {

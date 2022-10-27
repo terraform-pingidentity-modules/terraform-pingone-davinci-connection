@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-pingid" {
+resource "davinci_connection" "pingid" {
   name         = var.connector_name
   connector_id = "pingIdConnector"
   properties {

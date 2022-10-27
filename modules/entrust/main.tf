@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-entrust" {
+resource "davinci_connection" "entrust" {
   name         = var.connector_name
   connector_id = "entrustConnector"
   properties {

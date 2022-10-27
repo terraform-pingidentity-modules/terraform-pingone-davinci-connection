@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-symantec-vip" {
+resource "davinci_connection" "symantec-vip" {
   name         = var.connector_name
   connector_id = "symc"
   properties {

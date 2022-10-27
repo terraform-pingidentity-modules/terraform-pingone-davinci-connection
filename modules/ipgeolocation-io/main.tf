@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-ipgeolocation-io" {
+resource "davinci_connection" "ipgeolocation-io" {
   name         = var.connector_name
   connector_id = "connectorIPGeolocationio"
   properties {

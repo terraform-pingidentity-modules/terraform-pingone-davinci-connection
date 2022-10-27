@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-saviynt-connector-flows" {
+resource "davinci_connection" "saviynt-connector-flows" {
   name         = var.connector_name
   connector_id = "connectorSaviyntFlow"
   properties {

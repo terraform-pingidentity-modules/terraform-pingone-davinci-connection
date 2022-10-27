@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-comply-advantage" {
+resource "davinci_connection" "comply-advantage" {
   name         = var.connector_name
   connector_id = "complyAdvatangeConnector"
   properties {

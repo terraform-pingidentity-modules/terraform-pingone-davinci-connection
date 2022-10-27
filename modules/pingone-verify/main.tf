@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-pingone-verify" {
+resource "davinci_connection" "pingone-verify" {
   name         = var.connector_name
   connector_id = "pingOneVerifyConnector"
   properties {

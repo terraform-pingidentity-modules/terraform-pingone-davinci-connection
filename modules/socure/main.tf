@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-socure" {
+resource "davinci_connection" "socure" {
   name         = var.connector_name
   connector_id = "socureConnector"
   properties {

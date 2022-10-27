@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-idi-data" {
+resource "davinci_connection" "idi-data" {
   name         = var.connector_name
   connector_id = "skPeopleIntelligenceConnector"
   properties {

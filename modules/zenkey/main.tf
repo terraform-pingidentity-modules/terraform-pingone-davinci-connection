@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-zenkey" {
+resource "davinci_connection" "zenkey" {
   name         = var.connector_name
   connector_id = "zenkeyConnector"
   properties {

@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-credova" {
+resource "davinci_connection" "credova" {
   name         = var.connector_name
   connector_id = "credovaConnector"
   properties {

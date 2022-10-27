@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-twilio" {
+resource "davinci_connection" "twilio" {
   name         = var.connector_name
   connector_id = "twilioConnector"
   properties {

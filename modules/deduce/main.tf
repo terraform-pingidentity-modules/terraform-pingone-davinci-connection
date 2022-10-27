@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-deduce" {
+resource "davinci_connection" "deduce" {
   name         = var.connector_name
   connector_id = "connectorDeduce"
   properties {

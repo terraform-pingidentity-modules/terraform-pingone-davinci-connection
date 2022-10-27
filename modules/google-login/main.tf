@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-google-login" {
+resource "davinci_connection" "google-login" {
   name         = var.connector_name
   connector_id = "googleConnector"
   properties {

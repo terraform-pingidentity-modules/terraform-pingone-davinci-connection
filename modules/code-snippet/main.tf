@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-code-snippet" {
+resource "davinci_connection" "code-snippet" {
   name         = var.connector_name
   connector_id = "codeSnippetConnector"
   properties {

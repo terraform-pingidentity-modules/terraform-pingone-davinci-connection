@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-flow-conductor" {
+resource "davinci_connection" "flow-conductor" {
   name         = var.connector_name
   connector_id = "flowConnector"
   properties {

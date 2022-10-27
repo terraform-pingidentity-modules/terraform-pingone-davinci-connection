@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-transunion-tloxp" {
+resource "davinci_connection" "transunion-tloxp" {
   name         = var.connector_name
   connector_id = "tutloxpConnector"
   properties {

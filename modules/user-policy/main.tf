@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-user-policy" {
+resource "davinci_connection" "user-policy" {
   name         = var.connector_name
   connector_id = "userPolicyConnector"
   properties {

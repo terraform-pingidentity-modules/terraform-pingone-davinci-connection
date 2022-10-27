@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-sailpoint-identitynow" {
+resource "davinci_connection" "sailpoint-identitynow" {
   name         = var.connector_name
   connector_id = "connectorIdentityNow"
   properties {

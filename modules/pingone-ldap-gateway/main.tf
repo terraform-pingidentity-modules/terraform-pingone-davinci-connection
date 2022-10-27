@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-pingone-ldap-gateway" {
+resource "davinci_connection" "pingone-ldap-gateway" {
   name         = var.connector_name
   connector_id = "pingOneLDAPConnector"
   properties {

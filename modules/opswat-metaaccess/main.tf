@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-opswat-metaaccess" {
+resource "davinci_connection" "opswat-metaaccess" {
   name         = var.connector_name
   connector_id = "connectorOpswat"
   properties {

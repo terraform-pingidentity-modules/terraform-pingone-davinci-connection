@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-rsa" {
+resource "davinci_connection" "rsa" {
   name         = var.connector_name
   connector_id = "rsaConnector"
   properties {

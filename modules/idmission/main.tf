@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-idmission" {
+resource "davinci_connection" "idmission" {
   name         = var.connector_name
   connector_id = "idmissionConnector"
   properties {

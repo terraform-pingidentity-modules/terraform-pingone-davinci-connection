@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-aws-login" {
+resource "davinci_connection" "aws-login" {
   name         = var.connector_name
   connector_id = "awsIdpConnector"
   properties {

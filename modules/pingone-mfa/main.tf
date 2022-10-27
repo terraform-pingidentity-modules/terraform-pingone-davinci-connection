@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-pingone-mfa" {
+resource "davinci_connection" "pingone-mfa" {
   name         = var.connector_name
   connector_id = "pingOneMfaConnector"
   properties {

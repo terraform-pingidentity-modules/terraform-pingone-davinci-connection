@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-salesforce" {
+resource "davinci_connection" "salesforce" {
   name         = var.connector_name
   connector_id = "salesforceConnector"
   properties {

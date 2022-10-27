@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-bamboohr" {
+resource "davinci_connection" "bamboohr" {
   name         = var.connector_name
   connector_id = "bambooConnector"
   properties {

@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-twitter-login" {
+resource "davinci_connection" "twitter-login" {
   name         = var.connector_name
   connector_id = "twitterIdpConnector"
   properties {

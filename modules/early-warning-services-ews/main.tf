@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-early-warning-services-ews" {
+resource "davinci_connection" "early-warning-services-ews" {
   name         = var.connector_name
   connector_id = "ewsConnector"
   properties {

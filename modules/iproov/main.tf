@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-iproov" {
+resource "davinci_connection" "iproov" {
   name         = var.connector_name
   connector_id = "iproovConnector"
   properties {

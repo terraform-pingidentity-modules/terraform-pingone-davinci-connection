@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-pingone-risk" {
+resource "davinci_connection" "pingone-risk" {
   name         = var.connector_name
   connector_id = "pingOneRiskConnector"
   properties {

@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-google-workspace-admin" {
+resource "davinci_connection" "google-workspace-admin" {
   name         = var.connector_name
   connector_id = "googleWorkSpaceAdminConnector"
   properties {

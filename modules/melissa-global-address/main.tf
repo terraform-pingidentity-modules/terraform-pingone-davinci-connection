@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-melissa-global-address" {
+resource "davinci_connection" "melissa-global-address" {
   name         = var.connector_name
   connector_id = "melissaConnector"
   properties {

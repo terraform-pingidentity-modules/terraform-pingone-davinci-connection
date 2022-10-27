@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-telesign-ivr" {
+resource "davinci_connection" "telesign-ivr" {
   name         = var.connector_name
   connector_id = "telesignIvrConnector"
   properties {

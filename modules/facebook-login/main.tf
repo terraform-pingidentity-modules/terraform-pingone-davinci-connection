@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-facebook-login" {
+resource "davinci_connection" "facebook-login" {
   name         = var.connector_name
   connector_id = "facebookIdpConnector"
   properties {

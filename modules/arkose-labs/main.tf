@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-arkose-labs" {
+resource "davinci_connection" "arkose-labs" {
   name         = var.connector_name
   connector_id = "connectorArkoseLabs"
   properties {

@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-zscaler-zia" {
+resource "davinci_connection" "zscaler-zia" {
   name         = var.connector_name
   connector_id = "connectorZscaler"
   properties {

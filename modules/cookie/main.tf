@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-cookie" {
+resource "davinci_connection" "cookie" {
   name         = var.connector_name
   connector_id = "cookieConnector"
   properties {

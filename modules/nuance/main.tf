@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-nuance" {
+resource "davinci_connection" "nuance" {
   name         = var.connector_name
   connector_id = "nuanceConnector"
   properties {

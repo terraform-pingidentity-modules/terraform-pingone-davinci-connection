@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-shopify-connector" {
+resource "davinci_connection" "shopify-connector" {
   name         = var.connector_name
   connector_id = "connectorShopify"
   properties {

@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-finicity" {
+resource "davinci_connection" "finicity" {
   name         = var.connector_name
   connector_id = "finicityConnector"
   properties {

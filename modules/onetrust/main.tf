@@ -1,4 +1,4 @@
-resource "davinci_connection" "connector-onetrust" {
+resource "davinci_connection" "onetrust" {
   name         = var.connector_name
   connector_id = "oneTrustConnector"
   properties {
