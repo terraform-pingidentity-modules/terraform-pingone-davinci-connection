@@ -1,14 +1,14 @@
 ---
 layout: ""
-page_title: "Module: PingOne DaVinci Connector"
+page_title: "Module: PingOne DaVinci Connection"
 description: |-
-  This module provides ability to manage DaVinci connectors with an associated
+  This module provides ability to manage DaVinci connections with an associated
   scheme.
 ---
 
-# PingOne DaVinci Connector Module
+# PingOne DaVinci Connection Module
 
-This PingOne module provides ability to manage DaVinci connectors with an associated scheme.
+This PingOne module provides ability to manage DaVinci connections with an associated scheme.
 
 ## Getting Started
 
@@ -17,7 +17,7 @@ To get started using the PingOne Terraform provider, first you'll need an active
 
 ## Example Usage
 
-### Creating PingOne Connector
+### Creating PingOne Connection
 
 ```terraform
 terraform {
@@ -41,10 +41,10 @@ provider "davinci" {
 }
 
 ###############################################################################
-# Example Connector - PingOne Connector (with overridden name)
+# Example Connection - PingOne Connector (with overridden name)
 ###############################################################################
 
-module "pingone_connector" {
+module "pingone_connection" {
   source = "terraform-pingidentity-modules/davinci-connector/pingone//modules/pingone"
 
   name         = "PingOne - Sandbox"
@@ -55,15 +55,15 @@ module "pingone_connector" {
 }
 ```
 
-### Creating Challenge Connector
+### Creating Challenge Connection
 
 ```terraform
 ###############################################################################
-# Example Connector - Challen Connector (with default name)
+# Example Connection - Challenge Connector (with default name)
 ###############################################################################
 
-module "pingone_connector" {
-  source = "terraform-pingidentity-modules/davinci-connector/pingone//modules/challenge"
+module "challenge_connection" {
+  source = "terraform-pingidentity-modules/davinci-connection/pingone//modules/challenge"
 }
 ```
 
