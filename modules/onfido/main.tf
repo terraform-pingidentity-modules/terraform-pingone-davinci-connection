@@ -1,7 +1,7 @@
 resource "davinci_connection" "onfido" {
   name           = var.connector_name
   connector_id   = "onfidoConnector"
-  environment_id = "var.pingone_environment_id"
+  environment_id = var.pingone_environment_id
   property {
     name  = "connectorName"
     value = var.connectorName

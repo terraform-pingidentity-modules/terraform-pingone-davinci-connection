@@ -1,7 +1,7 @@
 resource "davinci_connection" "idmission" {
   name           = var.connector_name
   connector_id   = "idmissionConnector"
-  environment_id = "var.pingone_environment_id"
+  environment_id = var.pingone_environment_id
   property {
     name  = "connectorName"
     value = var.connectorName

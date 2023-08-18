@@ -1,7 +1,7 @@
 resource "davinci_connection" "tableau" {
   name           = var.connector_name
   connector_id   = "connectorTableau"
-  environment_id = "var.pingone_environment_id"
+  environment_id = var.pingone_environment_id
   property {
     name  = "serverUrl"
     value = var.serverUrl

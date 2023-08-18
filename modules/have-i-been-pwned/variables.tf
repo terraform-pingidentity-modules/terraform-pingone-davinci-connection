@@ -4,7 +4,7 @@ variable "connector_name" {
   default     = "Have I Been Pwned"
 }
 
-variable "environment_id" {
+variable "pingone_environment_id" {
   description = "PingOne environment id"
   type        = string
 }

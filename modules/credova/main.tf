@@ -1,7 +1,7 @@
 resource "davinci_connection" "credova" {
   name           = var.connector_name
   connector_id   = "credovaConnector"
-  environment_id = "var.pingone_environment_id"
+  environment_id = var.pingone_environment_id
   property {
     name  = "username"
     value = var.username

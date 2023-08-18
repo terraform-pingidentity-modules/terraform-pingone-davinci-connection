@@ -3,7 +3,7 @@
 resource "davinci_connection" "connector-1kosmos-connector" {
   name           = var.connector_name
   connector_id   = "connector1Kosmos"
-  environment_id = "var.pingone_environment_id"
+  environment_id = var.pingone_environment_id
   property {
     name  = "customAuth"
     value = var.customAuth

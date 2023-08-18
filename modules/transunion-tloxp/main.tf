@@ -1,7 +1,7 @@
 resource "davinci_connection" "transunion-tloxp" {
   name           = var.connector_name
   connector_id   = "tutloxpConnector"
-  environment_id = "var.pingone_environment_id"
+  environment_id = var.pingone_environment_id
   property {
     name  = "apiUrl"
     value = var.apiUrl

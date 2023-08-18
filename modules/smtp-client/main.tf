@@ -1,7 +1,7 @@
 resource "davinci_connection" "smtp-client" {
   name           = var.connector_name
   connector_id   = "smtpConnector"
-  environment_id = "var.pingone_environment_id"
+  environment_id = var.pingone_environment_id
   property {
     name  = "name"
     value = var.name

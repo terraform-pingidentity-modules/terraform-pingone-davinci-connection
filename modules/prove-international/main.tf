@@ -1,7 +1,7 @@
 resource "davinci_connection" "prove-international" {
   name           = var.connector_name
   connector_id   = "proveConnector"
-  environment_id = "var.pingone_environment_id"
+  environment_id = var.pingone_environment_id
   property {
     name  = "baseUrl"
     value = var.baseUrl

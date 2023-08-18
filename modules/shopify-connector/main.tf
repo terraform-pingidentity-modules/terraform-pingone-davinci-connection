@@ -1,7 +1,7 @@
 resource "davinci_connection" "shopify-connector" {
   name           = var.connector_name
   connector_id   = "connectorShopify"
-  environment_id = "var.pingone_environment_id"
+  environment_id = var.pingone_environment_id
   property {
     name  = "multipassStoreDomain"
     value = var.multipassStoreDomain

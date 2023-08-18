@@ -1,7 +1,7 @@
 resource "davinci_connection" "http" {
   name           = var.connector_name
   connector_id   = "httpConnector"
-  environment_id = "var.pingone_environment_id"
+  environment_id = var.pingone_environment_id
   property {
     name  = "recaptchaSiteKey"
     value = var.recaptchaSiteKey

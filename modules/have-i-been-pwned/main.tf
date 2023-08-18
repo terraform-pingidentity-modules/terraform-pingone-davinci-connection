@@ -1,7 +1,7 @@
 resource "davinci_connection" "have-i-been-pwned" {
   name           = var.connector_name
   connector_id   = "haveIBeenPwnedConnector"
-  environment_id = "var.pingone_environment_id"
+  environment_id = var.pingone_environment_id
   property {
     name  = "apiUrl"
     value = var.apiUrl

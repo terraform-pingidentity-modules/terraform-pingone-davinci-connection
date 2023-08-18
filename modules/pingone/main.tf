@@ -1,7 +1,7 @@
 resource "davinci_connection" "pingone" {
   name           = var.connector_name
   connector_id   = "pingOneSSOConnector"
-  environment_id = "var.pingone_environment_id"
+  environment_id = var.pingone_environment_id
   property {
     name  = "envId"
     value = var.envId

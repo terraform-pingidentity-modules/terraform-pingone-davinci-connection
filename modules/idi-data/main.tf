@@ -1,7 +1,7 @@
 resource "davinci_connection" "idi-data" {
   name           = var.connector_name
   connector_id   = "skPeopleIntelligenceConnector"
-  environment_id = "var.pingone_environment_id"
+  environment_id = var.pingone_environment_id
   property {
     name  = "clientId"
     value = var.clientId

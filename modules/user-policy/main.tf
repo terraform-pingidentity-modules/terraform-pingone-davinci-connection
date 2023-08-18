@@ -1,7 +1,7 @@
 resource "davinci_connection" "user-policy" {
   name           = var.connector_name
   connector_id   = "userPolicyConnector"
-  environment_id = "var.pingone_environment_id"
+  environment_id = var.pingone_environment_id
   property {
     name  = "passwordsEnabled"
     value = var.passwordsEnabled

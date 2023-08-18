@@ -1,7 +1,7 @@
 resource "davinci_connection" "microsoft-intune" {
   name           = var.connector_name
   connector_id   = "connectorMicrosoftIntune"
-  environment_id = "var.pingone_environment_id"
+  environment_id = var.pingone_environment_id
   property {
     name  = "tenant"
     value = var.tenant

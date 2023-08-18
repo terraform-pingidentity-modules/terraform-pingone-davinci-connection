@@ -1,7 +1,7 @@
 resource "davinci_connection" "zendesk" {
   name           = var.connector_name
   connector_id   = "connectorZendesk"
-  environment_id = "var.pingone_environment_id"
+  environment_id = var.pingone_environment_id
   property {
     name  = "subdomain"
     value = var.subdomain

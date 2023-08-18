@@ -3,7 +3,7 @@
 resource "davinci_connection" "clearbit" {
   name           = var.connector_name
   connector_id   = "connectorClearbit"
-  environment_id = "var.pingone_environment_id"
+  environment_id = var.pingone_environment_id
   property {
     name  = "apiKey"
     value = var.apiKey

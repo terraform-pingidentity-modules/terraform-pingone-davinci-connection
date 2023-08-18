@@ -1,7 +1,7 @@
 resource "davinci_connection" "pingone-protect" {
   name           = var.connector_name
   connector_id   = "pingOneRiskConnector"
-  environment_id = "var.pingone_environment_id"
+  environment_id = var.pingone_environment_id
   property {
     name  = "envId"
     value = var.envId
