@@ -1,9 +1,9 @@
 # Connector uses terraform reserved variable 'version'. Prefixing with 'connectorSegment_'
 
 resource "davinci_connection" "segment" {
-  name           = var.connector_name
+  name           = var.connection_name
   connector_id   = "connectorSegment"
-  environment_id = var.pingone_environment_id
+  environment_id = var.connection_environment_id
   property {
     name  = "writeKey"
     value = var.writeKey

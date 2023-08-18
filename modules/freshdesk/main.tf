@@ -1,9 +1,9 @@
 # Connector uses terraform reserved variable 'version'. Prefixing with 'connectorFreshdesk_'
 
 resource "davinci_connection" "freshdesk" {
-  name           = var.connector_name
+  name           = var.connection_name
   connector_id   = "connectorFreshdesk"
-  environment_id = var.pingone_environment_id
+  environment_id = var.connection_environment_id
   property {
     name  = "apiKey"
     value = var.apiKey

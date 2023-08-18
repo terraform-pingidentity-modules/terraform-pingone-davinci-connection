@@ -1,7 +1,7 @@
 resource "davinci_connection" "iproov" {
-  name           = var.connector_name
+  name           = var.connection_name
   connector_id   = "iproovConnector"
-  environment_id = var.pingone_environment_id
+  environment_id = var.connection_environment_id
   property {
     name  = "connectorName"
     value = var.connectorName

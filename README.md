@@ -33,25 +33,26 @@ terraform {
 ###############################################################################
 
 provider "davinci" {
-  username                   = var.dv_username
-  password                   = var.dv_password
-  company_id                 = module.pingone_environment.environment_id
-  base_url                   = var.dv_base_url
-  pingone_admin_environment  = var.admin_environment_id
+  environment_id  = var.admin_environment_id
+  region          = var.region
+  username        = var.dv_username
+  password        = var.dv_password
 }
 
 ###############################################################################
-# Example Connection - PingOne Connector (with overridden name)
+# Example Connection - PingOne Connection (with overridden name)
 ###############################################################################
 
 module "pingone_connection" {
   source = "terraform-pingidentity-modules/davinci-connection/pingone/modules/pingone"
 
-  name         = "PingOne - Sandbox"
-  envId        = var.pingone_env_id
-  clientId     = var.pingone_env_client_id
-  clientSecret = var.pingone_env_client_secret
-  region       = "NA"
+  connection_name           = "PingOne - Sandbox"
+  connection_environment_id = var.davinci_environment_id
+
+  envId                     = var.pingone_environment_id
+  clientId                  = var.pingone_client_id
+  clientSecret              = var.pingone_client_secret
+  region                    = "NA"
 }
 ```
 
@@ -59,7 +60,7 @@ module "pingone_connection" {
 
 ```terraform
 ###############################################################################
-# Example Connection - Challenge Connector (with default name)
+# Example Connection - Challenge Connection (with default name)
 ###############################################################################
 
 module "challenge_connection" {

@@ -1,7 +1,7 @@
 resource "davinci_connection" "code-snippet" {
-  name           = var.connector_name
+  name           = var.connection_name
   connector_id   = "codeSnippetConnector"
-  environment_id = var.pingone_environment_id
+  environment_id = var.connection_environment_id
   property {
     name  = "code"
     value = var.code

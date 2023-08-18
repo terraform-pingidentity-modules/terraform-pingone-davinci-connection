@@ -1,7 +1,7 @@
 resource "davinci_connection" "transunion-truvalidate" {
-  name           = var.connector_name
+  name           = var.connection_name
   connector_id   = "transunionConnector"
-  environment_id = var.pingone_environment_id
+  environment_id = var.connection_environment_id
   property {
     name  = "apiUrl"
     value = var.apiUrl

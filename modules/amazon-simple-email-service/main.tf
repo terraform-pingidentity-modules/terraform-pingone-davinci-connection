@@ -1,7 +1,7 @@
 resource "davinci_connection" "amazon-simple-email-service" {
-  name           = var.connector_name
+  name           = var.connection_name
   connector_id   = "amazonSimpleEmailConnector"
-  environment_id = var.pingone_environment_id
+  environment_id = var.connection_environment_id
   property {
     name  = "awsAccessKey"
     value = var.awsAccessKey
