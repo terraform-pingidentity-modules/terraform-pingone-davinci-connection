@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "Entrust"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "serviceDomain" {
   description = "Service Domain"
   type        = string

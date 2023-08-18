@@ -1,12 +1,13 @@
 resource "davinci_connection" "entrust" {
-  name         = var.connector_name
-  connector_id = "entrustConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "entrustConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "serviceDomain"
     value = var.serviceDomain
     type  = "string"
   }
-  properties {
+  property {
     name  = "applicationId"
     value = var.applicationId
     type  = "string"

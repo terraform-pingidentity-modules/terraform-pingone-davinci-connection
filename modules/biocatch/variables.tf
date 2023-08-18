@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "BioCatch"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "sdkToken" {
   description = "SDK Token"
   type        = string

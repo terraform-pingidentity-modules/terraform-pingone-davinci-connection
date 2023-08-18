@@ -1,22 +1,23 @@
 resource "davinci_connection" "saviynt-connector-flows" {
-  name         = var.connector_name
-  connector_id = "connectorSaviyntFlow"
-  properties {
+  name           = var.connector_name
+  connector_id   = "connectorSaviyntFlow"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "domainName"
     value = var.domainName
     type  = "string"
   }
-  properties {
+  property {
     name  = "path"
     value = var.path
     type  = "string"
   }
-  properties {
+  property {
     name  = "saviyntUserName"
     value = var.saviyntUserName
     type  = "string"
   }
-  properties {
+  property {
     name  = "saviyntPassword"
     value = var.saviyntPassword
     type  = "string"

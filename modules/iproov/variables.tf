@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "iProov"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "connectorName" {
   description = "Connector Name"
   type        = string

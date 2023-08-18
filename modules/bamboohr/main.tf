@@ -1,32 +1,33 @@
 resource "davinci_connection" "bamboohr" {
-  name         = var.connector_name
-  connector_id = "bambooConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "bambooConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "baseUrl"
     value = var.baseUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "apiKey"
     value = var.apiKey
     type  = "string"
   }
-  properties {
+  property {
     name  = "companySubDomain"
     value = var.companySubDomain
     type  = "string"
   }
-  properties {
+  property {
     name  = "flowId"
     value = var.flowId
     type  = "string"
   }
-  properties {
+  property {
     name  = "webhookToken"
     value = var.webhookToken
     type  = "string"
   }
-  properties {
+  property {
     name  = "skWebhookUri"
     value = var.skWebhookUri
     type  = "string"

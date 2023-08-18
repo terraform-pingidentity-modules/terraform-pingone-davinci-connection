@@ -1,17 +1,18 @@
 resource "davinci_connection" "crowdstrike" {
-  name         = var.connector_name
-  connector_id = "crowdStrikeConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "crowdStrikeConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "baseURL"
     value = var.baseURL
     type  = "string"
   }
-  properties {
+  property {
     name  = "clientId"
     value = var.clientId
     type  = "string"
   }
-  properties {
+  property {
     name  = "clientSecret"
     value = var.clientSecret
     type  = "string"

@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "Infinipoint"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "customAuth" {
   description = "Custom Parameters"
   type        = string

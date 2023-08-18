@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "KBA"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "formFieldsList" {
   description = "Fields List"
   type        = string

@@ -1,27 +1,28 @@
 resource "davinci_connection" "prove-international" {
-  name         = var.connector_name
-  connector_id = "proveConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "proveConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "baseUrl"
     value = var.baseUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "username"
     value = var.username
     type  = "string"
   }
-  properties {
+  property {
     name  = "password"
     value = var.password
     type  = "string"
   }
-  properties {
+  property {
     name  = "clientId"
     value = var.clientId
     type  = "string"
   }
-  properties {
+  property {
     name  = "grantType"
     value = var.grantType
     type  = "string"

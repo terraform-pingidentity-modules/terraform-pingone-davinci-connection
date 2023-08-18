@@ -3,13 +3,13 @@
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_davinci"></a> [davinci](#requirement\_davinci) | >= 0.0.7 |
+| <a name="requirement_davinci"></a> [davinci](#requirement\_davinci) | 0.1.12 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_davinci"></a> [davinci](#provider\_davinci) | 0.0.10 |
+| <a name="provider_davinci"></a> [davinci](#provider\_davinci) | 0.1.12 |
 
 ## Modules
 
@@ -19,7 +19,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [davinci_connection.lexisnexis](https://registry.terraform.io/providers/samir-gandhi/davinci/latest/docs/resources/connection) | resource |
+| [davinci_connection.lexisnexis](https://registry.terraform.io/providers/pingidentity/davinci/0.1.12/docs/resources/connection) | resource |
 
 ## Inputs
 
@@ -27,6 +27,11 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_acasEndpoint"></a> [acasEndpoint](#input\_acasEndpoint) | ACAS Endpoint | `string` | n/a | yes |
 | <a name="input_accountId"></a> [accountId](#input\_accountId) | Account ID | `string` | n/a | yes |
+| <a name="input_acuantCameraScript"></a> [acuantCameraScript](#input\_acuantCameraScript) | Camera Script | `string` | n/a | yes |
+| <a name="input_acuantConfigurationScript"></a> [acuantConfigurationScript](#input\_acuantConfigurationScript) | Configuration Script | `string` | n/a | yes |
+| <a name="input_acuantJavascriptWebSdkScript"></a> [acuantJavascriptWebSdkScript](#input\_acuantJavascriptWebSdkScript) | Javascript Web SDK Script | `string` | n/a | yes |
+| <a name="input_acuantJavascriptWebSdkScriptSource"></a> [acuantJavascriptWebSdkScriptSource](#input\_acuantJavascriptWebSdkScriptSource) | Acuant JavaScript Web SDK Script Source | `string` | n/a | yes |
+| <a name="input_acuantPassiveLivenessScript"></a> [acuantPassiveLivenessScript](#input\_acuantPassiveLivenessScript) | Passive Liveness Script | `string` | n/a | yes |
 | <a name="input_apiKey"></a> [apiKey](#input\_apiKey) | API Key | `string` | n/a | yes |
 | <a name="input_apiKey2"></a> [apiKey2](#input\_apiKey2) | API Key | `string` | n/a | yes |
 | <a name="input_apiUrl"></a> [apiUrl](#input\_apiUrl) | API Base URL | `string` | n/a | yes |
@@ -36,7 +41,10 @@ No modules.
 | <a name="input_clientId"></a> [clientId](#input\_clientId) | Client ID | `string` | n/a | yes |
 | <a name="input_clientSecret"></a> [clientSecret](#input\_clientSecret) | Client Secret | `string` | n/a | yes |
 | <a name="input_connector_name"></a> [connector\_name](#input\_connector\_name) | Name of Connector | `string` | `"LexisNexis"` | no |
+| <a name="input_environment_id"></a> [environment\_id](#input\_environment\_id) | PingOne environment id | `string` | n/a | yes |
+| <a name="input_externalAcuantScriptURLsLabel"></a> [externalAcuantScriptURLsLabel](#input\_externalAcuantScriptURLsLabel) | External Acuant Script URLs | `string` | n/a | yes |
 | <a name="input_javascriptCdnUrl"></a> [javascriptCdnUrl](#input\_javascriptCdnUrl) | Javascript CDN URL | `string` | n/a | yes |
+| <a name="input_openCvScript"></a> [openCvScript](#input\_openCvScript) | Open CV Script | `string` | n/a | yes |
 | <a name="input_orgId"></a> [orgId](#input\_orgId) | Organization ID | `string` | n/a | yes |
 | <a name="input_orgId2"></a> [orgId2](#input\_orgId2) | Organization ID | `string` | n/a | yes |
 | <a name="input_password"></a> [password](#input\_password) | Password | `string` | n/a | yes |

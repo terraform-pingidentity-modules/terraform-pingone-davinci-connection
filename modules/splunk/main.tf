@@ -1,17 +1,18 @@
 resource "davinci_connection" "splunk" {
-  name         = var.connector_name
-  connector_id = "splunkConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "splunkConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "apiUrl"
     value = var.apiUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "port"
     value = var.port
     type  = "number"
   }
-  properties {
+  property {
     name  = "token"
     value = var.token
     type  = "string"

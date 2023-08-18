@@ -3,13 +3,13 @@
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_davinci"></a> [davinci](#requirement\_davinci) | >= 0.0.7 |
+| <a name="requirement_davinci"></a> [davinci](#requirement\_davinci) | 0.1.12 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_davinci"></a> [davinci](#provider\_davinci) | 0.0.10 |
+| <a name="provider_davinci"></a> [davinci](#provider\_davinci) | 0.1.12 |
 
 ## Modules
 
@@ -19,13 +19,14 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [davinci_connection.user-policy](https://registry.terraform.io/providers/samir-gandhi/davinci/latest/docs/resources/connection) | resource |
+| [davinci_connection.user-policy](https://registry.terraform.io/providers/pingidentity/davinci/0.1.12/docs/resources/connection) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_connector_name"></a> [connector\_name](#input\_connector\_name) | Name of Connector | `string` | `"User Policy"` | no |
+| <a name="input_environment_id"></a> [environment\_id](#input\_environment\_id) | PingOne environment id | `string` | n/a | yes |
 | <a name="input_passwordExpiryInDays"></a> [passwordExpiryInDays](#input\_passwordExpiryInDays) | Expires in the specified number of days | `string` | n/a | yes |
 | <a name="input_passwordExpiryNotification"></a> [passwordExpiryNotification](#input\_passwordExpiryNotification) | Notify user before password expires | `string` | n/a | yes |
 | <a name="input_passwordLengthMax"></a> [passwordLengthMax](#input\_passwordLengthMax) | Maximum Password Length | `string` | n/a | yes |

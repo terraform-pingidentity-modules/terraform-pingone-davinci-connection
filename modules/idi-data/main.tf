@@ -1,32 +1,33 @@
 resource "davinci_connection" "idi-data" {
-  name         = var.connector_name
-  connector_id = "skPeopleIntelligenceConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "skPeopleIntelligenceConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "clientId"
     value = var.clientId
     type  = "string"
   }
-  properties {
+  property {
     name  = "clientSecret"
     value = var.clientSecret
     type  = "string"
   }
-  properties {
+  property {
     name  = "authUrl"
     value = var.authUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "searchUrl"
     value = var.searchUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "glba"
     value = var.glba
     type  = "string"
   }
-  properties {
+  property {
     name  = "dppa"
     value = var.dppa
     type  = "string"

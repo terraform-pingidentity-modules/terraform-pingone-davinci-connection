@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "Google Workspace Admin"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "iss" {
   description = "Service Account Email Address"
   type        = string

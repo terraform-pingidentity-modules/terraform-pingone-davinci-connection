@@ -4,3 +4,8 @@ variable "connector_name" {
   default     = "randomuser.me"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+

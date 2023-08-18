@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "BambooHR"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "baseUrl" {
   description = "Base URL"
   type        = string

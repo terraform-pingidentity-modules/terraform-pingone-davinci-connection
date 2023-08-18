@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "RSA"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "accessId" {
   description = "Access ID"
   type        = string

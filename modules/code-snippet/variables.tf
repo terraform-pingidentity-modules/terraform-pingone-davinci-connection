@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "Code Snippet"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "code" {
   description = "Code Snippet"
   type        = string

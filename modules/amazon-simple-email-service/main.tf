@@ -1,22 +1,23 @@
 resource "davinci_connection" "amazon-simple-email-service" {
-  name         = var.connector_name
-  connector_id = "amazonSimpleEmailConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "amazonSimpleEmailConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "awsAccessKey"
     value = var.awsAccessKey
     type  = "string"
   }
-  properties {
+  property {
     name  = "awsAccessSecret"
     value = var.awsAccessSecret
     type  = "string"
   }
-  properties {
+  property {
     name  = "awsRegion"
     value = var.awsRegion
     type  = "string"
   }
-  properties {
+  property {
     name  = "from"
     value = var.from
     type  = "string"

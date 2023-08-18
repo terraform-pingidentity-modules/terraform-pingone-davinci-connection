@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "LexisNexis"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "apiUrl" {
   description = "API Base URL"
   type        = string
@@ -86,6 +91,41 @@ variable "trueIdPassword" {
 
 variable "acasEndpoint" {
   description = "ACAS Endpoint"
+  type        = string
+}
+
+variable "acuantJavascriptWebSdkScriptSource" {
+  description = "Acuant JavaScript Web SDK Script Source"
+  type        = string
+}
+
+variable "externalAcuantScriptURLsLabel" {
+  description = "External Acuant Script URLs"
+  type        = string
+}
+
+variable "acuantConfigurationScript" {
+  description = "Configuration Script"
+  type        = string
+}
+
+variable "acuantJavascriptWebSdkScript" {
+  description = "Javascript Web SDK Script"
+  type        = string
+}
+
+variable "acuantCameraScript" {
+  description = "Camera Script"
+  type        = string
+}
+
+variable "acuantPassiveLivenessScript" {
+  description = "Passive Liveness Script"
+  type        = string
+}
+
+variable "openCvScript" {
+  description = "Open CV Script"
   type        = string
 }
 

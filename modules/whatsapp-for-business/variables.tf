@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "WhatsApp for Business"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "accessToken" {
   description = "Access Token"
   type        = string

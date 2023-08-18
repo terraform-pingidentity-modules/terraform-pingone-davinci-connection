@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "Flow Conductor"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "inputSchema" {
   description = "Input Schema"
   type        = string

@@ -1,82 +1,83 @@
 resource "davinci_connection" "twilio" {
-  name         = var.connector_name
-  connector_id = "twilioConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "twilioConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "connectorName"
     value = var.connectorName
     type  = "string"
   }
-  properties {
+  property {
     name  = "toolTip"
     value = var.toolTip
     type  = "string"
   }
-  properties {
+  property {
     name  = "accountSid"
     value = var.accountSid
     type  = "string"
   }
-  properties {
+  property {
     name  = "authToken"
     value = var.authToken
     type  = "string"
   }
-  properties {
+  property {
     name  = "senderPhoneNumber"
     value = var.senderPhoneNumber
     type  = "string"
   }
-  properties {
+  property {
     name  = "title"
     value = var.title
     type  = "string"
   }
-  properties {
+  property {
     name  = "description"
     value = var.description
     type  = "string"
   }
-  properties {
+  property {
     name  = "authDescription"
     value = var.authDescription
     type  = "string"
   }
-  properties {
+  property {
     name  = "details1"
     value = var.details1
     type  = "string"
   }
-  properties {
+  property {
     name  = "details2"
     value = var.details2
     type  = "string"
   }
-  properties {
+  property {
     name  = "showCredAddedVia"
     value = var.showCredAddedVia
     type  = "bool"
   }
-  properties {
+  property {
     name  = "showCredAddedOn"
     value = var.showCredAddedOn
     type  = "bool"
   }
-  properties {
+  property {
     name  = "iconUrl"
     value = var.iconUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "iconUrlPng"
     value = var.iconUrlPng
     type  = "string"
   }
-  properties {
+  property {
     name  = "registerMessageTemplate"
     value = var.registerMessageTemplate
     type  = "string"
   }
-  properties {
+  property {
     name  = "authMessageTemplate"
     value = var.authMessageTemplate
     type  = "string"

@@ -1,47 +1,48 @@
 resource "davinci_connection" "authenticid" {
-  name         = var.connector_name
-  connector_id = "authenticIdConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "authenticIdConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "baseUrl"
     value = var.baseUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "apiUrl"
     value = var.apiUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "accountAccessKey"
     value = var.accountAccessKey
     type  = "string"
   }
-  properties {
+  property {
     name  = "secretToken"
     value = var.secretToken
     type  = "string"
   }
-  properties {
+  property {
     name  = "clientCertificate"
     value = var.clientCertificate
     type  = "string"
   }
-  properties {
+  property {
     name  = "clientKey"
     value = var.clientKey
     type  = "string"
   }
-  properties {
+  property {
     name  = "passphrase"
     value = var.passphrase
     type  = "string"
   }
-  properties {
+  property {
     name  = "iOSSDKLicenseKey"
     value = var.iOSSDKLicenseKey
     type  = "string"
   }
-  properties {
+  property {
     name  = "androidSDKLicenseKey"
     value = var.androidSDKLicenseKey
     type  = "string"

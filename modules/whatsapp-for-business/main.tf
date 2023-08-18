@@ -1,29 +1,30 @@
 # Connector uses terraform reserved variable 'version'. Prefixing with 'connectorWhatsAppBusiness_'
 
 resource "davinci_connection" "whatsapp-for-business" {
-  name         = var.connector_name
-  connector_id = "connectorWhatsAppBusiness"
-  properties {
+  name           = var.connector_name
+  connector_id   = "connectorWhatsAppBusiness"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "accessToken"
     value = var.accessToken
     type  = "string"
   }
-  properties {
+  property {
     name  = "version"
     value = var.connectorWhatsAppBusiness_version
     type  = "string"
   }
-  properties {
+  property {
     name  = "appSecret"
     value = var.appSecret
     type  = "string"
   }
-  properties {
+  property {
     name  = "verifyToken"
     value = var.verifyToken
     type  = "string"
   }
-  properties {
+  property {
     name  = "skWebhookUri"
     value = var.skWebhookUri
     type  = "string"

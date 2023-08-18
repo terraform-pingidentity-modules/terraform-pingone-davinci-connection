@@ -3,13 +3,13 @@
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_davinci"></a> [davinci](#requirement\_davinci) | >= 0.0.7 |
+| <a name="requirement_davinci"></a> [davinci](#requirement\_davinci) | 0.1.12 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_davinci"></a> [davinci](#provider\_davinci) | 0.0.10 |
+| <a name="provider_davinci"></a> [davinci](#provider\_davinci) | 0.1.12 |
 
 ## Modules
 
@@ -19,7 +19,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [davinci_connection.saviynt-connector-flows](https://registry.terraform.io/providers/samir-gandhi/davinci/latest/docs/resources/connection) | resource |
+| [davinci_connection.saviynt-connector-flows](https://registry.terraform.io/providers/pingidentity/davinci/0.1.12/docs/resources/connection) | resource |
 
 ## Inputs
 
@@ -27,6 +27,7 @@ No modules.
 |------|-------------|------|---------|:--------:|
 | <a name="input_connector_name"></a> [connector\_name](#input\_connector\_name) | Name of Connector | `string` | `"Saviynt Connector Flows"` | no |
 | <a name="input_domainName"></a> [domainName](#input\_domainName) | Saviynt Domain Name | `string` | n/a | yes |
+| <a name="input_environment_id"></a> [environment\_id](#input\_environment\_id) | PingOne environment id | `string` | n/a | yes |
 | <a name="input_path"></a> [path](#input\_path) | Saviynt Path Name | `string` | n/a | yes |
 | <a name="input_saviyntPassword"></a> [saviyntPassword](#input\_saviyntPassword) | Saviynt Password | `string` | n/a | yes |
 | <a name="input_saviyntUserName"></a> [saviyntUserName](#input\_saviyntUserName) | Saviynt User Name | `string` | n/a | yes |

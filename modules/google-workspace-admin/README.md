@@ -3,13 +3,13 @@
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_davinci"></a> [davinci](#requirement\_davinci) | >= 0.0.7 |
+| <a name="requirement_davinci"></a> [davinci](#requirement\_davinci) | 0.1.12 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_davinci"></a> [davinci](#provider\_davinci) | 0.0.10 |
+| <a name="provider_davinci"></a> [davinci](#provider\_davinci) | 0.1.12 |
 
 ## Modules
 
@@ -19,13 +19,14 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [davinci_connection.google-workspace-admin](https://registry.terraform.io/providers/samir-gandhi/davinci/latest/docs/resources/connection) | resource |
+| [davinci_connection.google-workspace-admin](https://registry.terraform.io/providers/pingidentity/davinci/0.1.12/docs/resources/connection) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_connector_name"></a> [connector\_name](#input\_connector\_name) | Name of Connector | `string` | `"Google Workspace Admin"` | no |
+| <a name="input_environment_id"></a> [environment\_id](#input\_environment\_id) | PingOne environment id | `string` | n/a | yes |
 | <a name="input_iss"></a> [iss](#input\_iss) | Service Account Email Address | `string` | n/a | yes |
 | <a name="input_privateKey"></a> [privateKey](#input\_privateKey) | Private Key | `string` | n/a | yes |
 | <a name="input_sub"></a> [sub](#input\_sub) | Admin Email Address | `string` | n/a | yes |

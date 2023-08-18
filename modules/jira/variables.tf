@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "Jira"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "apiUrl" {
   description = "Base Url"
   type        = string

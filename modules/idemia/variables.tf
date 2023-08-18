@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "IDEMIA"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "baseUrl" {
   description = "IDEMIA API base URL"
   type        = string

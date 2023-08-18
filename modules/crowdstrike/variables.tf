@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "CrowdStrike"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "baseURL" {
   description = "CrowdStrike Base URL"
   type        = string

@@ -1,87 +1,88 @@
 resource "davinci_connection" "nuance" {
-  name         = var.connector_name
-  connector_id = "nuanceConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "nuanceConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "configSetName"
     value = var.configSetName
     type  = "string"
   }
-  properties {
+  property {
     name  = "passphrase1"
     value = var.passphrase1
     type  = "string"
   }
-  properties {
+  property {
     name  = "passphrase2"
     value = var.passphrase2
     type  = "string"
   }
-  properties {
+  property {
     name  = "passphrase3"
     value = var.passphrase3
     type  = "string"
   }
-  properties {
+  property {
     name  = "passphrase4"
     value = var.passphrase4
     type  = "string"
   }
-  properties {
+  property {
     name  = "passphrase5"
     value = var.passphrase5
     type  = "string"
   }
-  properties {
+  property {
     name  = "connectorName"
     value = var.connectorName
     type  = "string"
   }
-  properties {
+  property {
     name  = "toolTip"
     value = var.toolTip
     type  = "string"
   }
-  properties {
+  property {
     name  = "title"
     value = var.title
     type  = "string"
   }
-  properties {
+  property {
     name  = "description"
     value = var.description
     type  = "string"
   }
-  properties {
+  property {
     name  = "authDescription"
     value = var.authDescription
     type  = "string"
   }
-  properties {
+  property {
     name  = "details1"
     value = var.details1
     type  = "string"
   }
-  properties {
+  property {
     name  = "details2"
     value = var.details2
     type  = "string"
   }
-  properties {
+  property {
     name  = "showCredAddedVia"
     value = var.showCredAddedVia
     type  = "bool"
   }
-  properties {
+  property {
     name  = "showCredAddedOn"
     value = var.showCredAddedOn
     type  = "bool"
   }
-  properties {
+  property {
     name  = "iconUrl"
     value = var.iconUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "iconUrlPng"
     value = var.iconUrlPng
     type  = "string"

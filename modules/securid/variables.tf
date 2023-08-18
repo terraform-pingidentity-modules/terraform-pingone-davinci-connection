@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "SecurID"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "apiUrl" {
   description = "SecurID Authentication API REST URL"
   type        = string

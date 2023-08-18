@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "SMTP Client"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "name" {
   description = "Client Name"
   type        = string

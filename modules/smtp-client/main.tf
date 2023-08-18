@@ -1,32 +1,33 @@
 resource "davinci_connection" "smtp-client" {
-  name         = var.connector_name
-  connector_id = "smtpConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "smtpConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "name"
     value = var.name
     type  = "string"
   }
-  properties {
+  property {
     name  = "hostname"
     value = var.hostname
     type  = "string"
   }
-  properties {
+  property {
     name  = "port"
     value = var.port
     type  = "number"
   }
-  properties {
+  property {
     name  = "secureFlag"
     value = var.secureFlag
     type  = "bool"
   }
-  properties {
+  property {
     name  = "username"
     value = var.username
     type  = "string"
   }
-  properties {
+  property {
     name  = "password"
     value = var.password
     type  = "string"

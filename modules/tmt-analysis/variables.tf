@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "TMT Analysis"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "apiUrl" {
   description = "Base URL"
   type        = string

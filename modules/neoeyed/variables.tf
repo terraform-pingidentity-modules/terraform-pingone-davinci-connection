@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "neoEYED"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "appKey" {
   description = "Application Key"
   type        = string

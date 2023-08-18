@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "iovation"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "apiUrl" {
   description = "API Server URL"
   type        = string

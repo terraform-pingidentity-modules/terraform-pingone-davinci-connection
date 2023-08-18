@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "Fingerprint JS"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "token" {
   description = "Fingerprint Subscription Browser Token"
   type        = string

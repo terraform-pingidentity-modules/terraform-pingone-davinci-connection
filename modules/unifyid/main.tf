@@ -1,57 +1,58 @@
 resource "davinci_connection" "unifyid" {
-  name         = var.connector_name
-  connector_id = "unifyIdConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "unifyIdConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "connectorName"
     value = var.connectorName
     type  = "string"
   }
-  properties {
+  property {
     name  = "toolTip"
     value = var.toolTip
     type  = "string"
   }
-  properties {
+  property {
     name  = "accountId"
     value = var.accountId
     type  = "string"
   }
-  properties {
+  property {
     name  = "apiKey"
     value = var.apiKey
     type  = "string"
   }
-  properties {
+  property {
     name  = "sdkToken"
     value = var.sdkToken
     type  = "string"
   }
-  properties {
+  property {
     name  = "details1"
     value = var.details1
     type  = "string"
   }
-  properties {
+  property {
     name  = "details2"
     value = var.details2
     type  = "string"
   }
-  properties {
+  property {
     name  = "showCredAddedVia"
     value = var.showCredAddedVia
     type  = "bool"
   }
-  properties {
+  property {
     name  = "showCredAddedOn"
     value = var.showCredAddedOn
     type  = "bool"
   }
-  properties {
+  property {
     name  = "iconUrl"
     value = var.iconUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "iconUrlPng"
     value = var.iconUrlPng
     type  = "string"

@@ -23,7 +23,7 @@ To get started using the PingOne Terraform provider, first you'll need an active
 terraform {
   required_providers {
     davinci = {
-      source = "samir-gandhi/davinci"
+      source = "pingidentity/davinci"
     }
   }
 }
@@ -45,7 +45,7 @@ provider "davinci" {
 ###############################################################################
 
 module "pingone_connection" {
-  source = "terraform-pingidentity-modules/davinci-connection/pingone//modules/pingone"
+  source = "terraform-pingidentity-modules/davinci-connection/pingone/modules/pingone"
 
   name         = "PingOne - Sandbox"
   envId        = var.pingone_env_id
@@ -72,7 +72,7 @@ module "challenge_connection" {
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_davinci"></a> [davinci](#requirement\_davinci) | >= 0.0.7 |
+| <a name="requirement_davinci"></a> [davinci](#requirement\_davinci) | ~> 0.1 |
 
 ## Providers
 

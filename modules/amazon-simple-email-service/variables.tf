@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "Amazon Simple Email Service"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "awsAccessKey" {
   description = "AWS Access Key"
   type        = string

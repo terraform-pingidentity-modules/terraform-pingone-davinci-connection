@@ -1,27 +1,28 @@
 resource "davinci_connection" "transunion-tloxp" {
-  name         = var.connector_name
-  connector_id = "tutloxpConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "tutloxpConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "apiUrl"
     value = var.apiUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "username"
     value = var.username
     type  = "string"
   }
-  properties {
+  property {
     name  = "password"
     value = var.password
     type  = "string"
   }
-  properties {
+  property {
     name  = "dppaCode"
     value = var.dppaCode
     type  = "string"
   }
-  properties {
+  property {
     name  = "glbCode"
     value = var.glbCode
     type  = "string"

@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "AWS Login"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "openId" {
   description = "OpenId Parameters"
   type        = string

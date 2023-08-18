@@ -1,17 +1,18 @@
 resource "davinci_connection" "code-snippet" {
-  name         = var.connector_name
-  connector_id = "codeSnippetConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "codeSnippetConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "code"
     value = var.code
     type  = "string"
   }
-  properties {
+  property {
     name  = "inputSchema"
     value = var.inputSchema
     type  = "string"
   }
-  properties {
+  property {
     name  = "outputSchema"
     value = var.outputSchema
     type  = "string"

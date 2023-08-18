@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "HTTP"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "recaptchaSiteKey" {
   description = "reCAPTCHA v2 Site Key"
   type        = string

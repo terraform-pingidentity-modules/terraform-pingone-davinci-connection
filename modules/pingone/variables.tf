@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "PingOne"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "envId" {
   description = "Environment ID"
   type        = string

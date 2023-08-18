@@ -9,7 +9,7 @@
 
 | Name | Version |
 |------|---------|
-| <a name="provider_davinci"></a> [davinci](#provider\_davinci) | 0.0.10 |
+| <a name="provider_davinci"></a> [davinci](#provider\_davinci) | >= 0.0.7 |
 
 ## Modules
 

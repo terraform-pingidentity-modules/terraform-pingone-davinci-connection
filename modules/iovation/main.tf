@@ -1,39 +1,40 @@
 # Connector uses terraform reserved variable 'version'. Prefixing with 'iovationConnector_'
 
 resource "davinci_connection" "iovation" {
-  name         = var.connector_name
-  connector_id = "iovationConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "iovationConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "apiUrl"
     value = var.apiUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "subscriberId"
     value = var.subscriberId
     type  = "string"
   }
-  properties {
+  property {
     name  = "subscriberAccount"
     value = var.subscriberAccount
     type  = "string"
   }
-  properties {
+  property {
     name  = "subscriberPasscode"
     value = var.subscriberPasscode
     type  = "string"
   }
-  properties {
+  property {
     name  = "javascriptCdnUrl"
     value = var.javascriptCdnUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "version"
     value = var.iovationConnector_version
     type  = "string"
   }
-  properties {
+  property {
     name  = "subKey"
     value = var.subKey
     type  = "string"

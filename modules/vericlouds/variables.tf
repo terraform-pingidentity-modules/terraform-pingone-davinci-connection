@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "Vericlouds"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "apikey" {
   description = "apiKey"
   type        = string

@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "Salesforce"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "adminUsername" {
   description = "Username"
   type        = string

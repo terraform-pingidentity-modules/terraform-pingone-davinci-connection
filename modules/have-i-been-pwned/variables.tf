@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "Have I Been Pwned"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "apiUrl" {
   description = "API Server URL"
   type        = string

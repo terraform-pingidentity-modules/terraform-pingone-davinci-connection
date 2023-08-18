@@ -3,13 +3,13 @@
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_davinci"></a> [davinci](#requirement\_davinci) | >= 0.0.7 |
+| <a name="requirement_davinci"></a> [davinci](#requirement\_davinci) | 0.1.12 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_davinci"></a> [davinci](#provider\_davinci) | 0.0.10 |
+| <a name="provider_davinci"></a> [davinci](#provider\_davinci) | 0.1.12 |
 
 ## Modules
 
@@ -19,7 +19,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [davinci_connection.jumio](https://registry.terraform.io/providers/samir-gandhi/davinci/latest/docs/resources/connection) | resource |
+| [davinci_connection.jumio](https://registry.terraform.io/providers/pingidentity/davinci/0.1.12/docs/resources/connection) | resource |
 
 ## Inputs
 
@@ -40,6 +40,7 @@ No modules.
 | <a name="input_details2"></a> [details2](#input\_details2) | Credentials Details 2 | `string` | n/a | yes |
 | <a name="input_doNotShowInIframe"></a> [doNotShowInIframe](#input\_doNotShowInIframe) | Do not show in iFrame | `string` | n/a | yes |
 | <a name="input_docVerificationUrl"></a> [docVerificationUrl](#input\_docVerificationUrl) | Document Verification Url | `string` | n/a | yes |
+| <a name="input_environment_id"></a> [environment\_id](#input\_environment\_id) | PingOne environment id | `string` | n/a | yes |
 | <a name="input_headerImageUrl"></a> [headerImageUrl](#input\_headerImageUrl) | Custom Header Logo URL | `string` | n/a | yes |
 | <a name="input_iconUrl"></a> [iconUrl](#input\_iconUrl) | Icon URL | `string` | n/a | yes |
 | <a name="input_iconUrlPng"></a> [iconUrlPng](#input\_iconUrlPng) | Icon URL in PNG | `string` | n/a | yes |

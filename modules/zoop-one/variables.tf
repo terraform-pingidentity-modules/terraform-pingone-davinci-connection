@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "Zoop.one"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "apiUrl" {
   description = "Zoop API URL"
   type        = string

@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "Prove International"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "baseUrl" {
   description = "Prove Base URL"
   type        = string

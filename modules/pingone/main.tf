@@ -1,22 +1,23 @@
 resource "davinci_connection" "pingone" {
-  name         = var.connector_name
-  connector_id = "pingOneSSOConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "pingOneSSOConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "envId"
     value = var.envId
     type  = "string"
   }
-  properties {
+  property {
     name  = "clientId"
     value = var.clientId
     type  = "string"
   }
-  properties {
+  property {
     name  = "clientSecret"
     value = var.clientSecret
     type  = "string"
   }
-  properties {
+  property {
     name  = "region"
     value = var.region
     type  = "string"

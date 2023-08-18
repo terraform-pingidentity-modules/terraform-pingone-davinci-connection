@@ -1,32 +1,33 @@
 resource "davinci_connection" "biocatch" {
-  name         = var.connector_name
-  connector_id = "biocatchConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "biocatchConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "sdkToken"
     value = var.sdkToken
     type  = "string"
   }
-  properties {
+  property {
     name  = "customerId"
     value = var.customerId
     type  = "string"
   }
-  properties {
+  property {
     name  = "apiUrl"
     value = var.apiUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "javascriptCdnUrl"
     value = var.javascriptCdnUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "truthApiUrl"
     value = var.truthApiUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "truthApiKey"
     value = var.truthApiKey
     type  = "string"

@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "ipgeolocation.io"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "apiKey" {
   description = "API key"
   type        = string

@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "OPSWAT MetaAccess"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "clientID" {
   description = "Oauth Client Key"
   type        = string

@@ -4,6 +4,21 @@ variable "connector_name" {
   default     = "Shopify Connector"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
+variable "multipassStoreDomain" {
+  description = "Multipass Store Domain"
+  type        = string
+}
+
+variable "multipassSecret" {
+  description = "Multipass Secret"
+  type        = string
+}
+
 variable "apiVersion" {
   description = "API Version Name"
   type        = string

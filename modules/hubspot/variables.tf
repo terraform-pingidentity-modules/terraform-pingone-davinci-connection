@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "Hubspot"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "bearerToken" {
   description = "API Key"
   type        = string

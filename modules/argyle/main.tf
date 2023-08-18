@@ -1,27 +1,28 @@
 resource "davinci_connection" "argyle" {
-  name         = var.connector_name
-  connector_id = "argyleConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "argyleConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "apiUrl"
     value = var.apiUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "pluginKey"
     value = var.pluginKey
     type  = "string"
   }
-  properties {
+  property {
     name  = "javascriptWebUrl"
     value = var.javascriptWebUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "clientId"
     value = var.clientId
     type  = "string"
   }
-  properties {
+  property {
     name  = "clientSecret"
     value = var.clientSecret
     type  = "string"

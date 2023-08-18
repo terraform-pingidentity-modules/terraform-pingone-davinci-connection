@@ -1,107 +1,108 @@
 resource "davinci_connection" "transunion-truvalidate" {
-  name         = var.connector_name
-  connector_id = "transunionConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "transunionConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "apiUrl"
     value = var.apiUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "idVerificationSiteId"
     value = var.idVerificationSiteId
     type  = "string"
   }
-  properties {
+  property {
     name  = "idVerificationUsername"
     value = var.idVerificationUsername
     type  = "string"
   }
-  properties {
+  property {
     name  = "idVerificationPassword"
     value = var.idVerificationPassword
     type  = "string"
   }
-  properties {
+  property {
     name  = "idVerificationSecret"
     value = var.idVerificationSecret
     type  = "string"
   }
-  properties {
+  property {
     name  = "idVerificationPublicKey"
     value = var.idVerificationPublicKey
     type  = "string"
   }
-  properties {
+  property {
     name  = "docVerificationSiteId"
     value = var.docVerificationSiteId
     type  = "string"
   }
-  properties {
+  property {
     name  = "docVerificationUsername"
     value = var.docVerificationUsername
     type  = "string"
   }
-  properties {
+  property {
     name  = "docVerificationPassword"
     value = var.docVerificationPassword
     type  = "string"
   }
-  properties {
+  property {
     name  = "docVerificationSecret"
     value = var.docVerificationSecret
     type  = "string"
   }
-  properties {
+  property {
     name  = "docVerificationPublicKey"
     value = var.docVerificationPublicKey
     type  = "string"
   }
-  properties {
+  property {
     name  = "otpSiteId"
     value = var.otpSiteId
     type  = "string"
   }
-  properties {
+  property {
     name  = "otpUsername"
     value = var.otpUsername
     type  = "string"
   }
-  properties {
+  property {
     name  = "otpPassword"
     value = var.otpPassword
     type  = "string"
   }
-  properties {
+  property {
     name  = "otpSecret"
     value = var.otpSecret
     type  = "string"
   }
-  properties {
+  property {
     name  = "otpPublicKey"
     value = var.otpPublicKey
     type  = "string"
   }
-  properties {
+  property {
     name  = "kbaSiteId"
     value = var.kbaSiteId
     type  = "string"
   }
-  properties {
+  property {
     name  = "kbaUsername"
     value = var.kbaUsername
     type  = "string"
   }
-  properties {
+  property {
     name  = "kbaPassword"
     value = var.kbaPassword
     type  = "string"
   }
-  properties {
+  property {
     name  = "kbaSecret"
     value = var.kbaSecret
     type  = "string"
   }
-  properties {
+  property {
     name  = "kbaPublicKey"
     value = var.kbaPublicKey
     type  = "string"

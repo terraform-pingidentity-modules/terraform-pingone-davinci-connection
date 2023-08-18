@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "Finicity"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "partnerId" {
   description = "Partner ID"
   type        = string

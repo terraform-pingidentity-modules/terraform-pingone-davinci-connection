@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "Credova"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "username" {
   description = "Credova Username"
   type        = string

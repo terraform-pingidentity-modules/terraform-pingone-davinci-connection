@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "User Policy"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "passwordsEnabled" {
   description = "Passwords Feature Enabled?"
   type        = string

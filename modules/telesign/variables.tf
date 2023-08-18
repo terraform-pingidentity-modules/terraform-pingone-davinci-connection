@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "TeleSign"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "providerName" {
   description = "Provider Name"
   type        = string

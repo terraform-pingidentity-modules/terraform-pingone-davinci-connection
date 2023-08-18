@@ -1,27 +1,28 @@
 resource "davinci_connection" "pingone-notifications" {
-  name         = var.connector_name
-  connector_id = "notificationsConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "notificationsConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "envId"
     value = var.envId
     type  = "string"
   }
-  properties {
+  property {
     name  = "notificationPolicyId"
     value = var.notificationPolicyId
     type  = "string"
   }
-  properties {
+  property {
     name  = "clientId"
     value = var.clientId
     type  = "string"
   }
-  properties {
+  property {
     name  = "clientSecret"
     value = var.clientSecret
     type  = "string"
   }
-  properties {
+  property {
     name  = "region"
     value = var.region
     type  = "string"

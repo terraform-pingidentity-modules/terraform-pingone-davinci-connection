@@ -1,89 +1,125 @@
 resource "davinci_connection" "lexisnexis" {
-  name         = var.connector_name
-  connector_id = "lexisNexisConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "lexisNexisConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "apiUrl"
     value = var.apiUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "orgId"
     value = var.orgId
     type  = "string"
   }
-  properties {
+  property {
     name  = "apiKey"
     value = var.apiKey
     type  = "string"
   }
-  properties {
+  property {
     name  = "javascriptCdnUrl"
     value = var.javascriptCdnUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "apiUrl2"
     value = var.apiUrl2
     type  = "string"
   }
-  properties {
+  property {
     name  = "accountId"
     value = var.accountId
     type  = "string"
   }
-  properties {
+  property {
     name  = "username"
     value = var.username
     type  = "string"
   }
-  properties {
+  property {
     name  = "password"
     value = var.password
     type  = "string"
   }
-  properties {
+  property {
     name  = "apiUrl3"
     value = var.apiUrl3
     type  = "string"
   }
-  properties {
+  property {
     name  = "clientId"
     value = var.clientId
     type  = "string"
   }
-  properties {
+  property {
     name  = "clientSecret"
     value = var.clientSecret
     type  = "string"
   }
-  properties {
+  property {
     name  = "apiUrl4"
     value = var.apiUrl4
     type  = "string"
   }
-  properties {
+  property {
     name  = "orgId2"
     value = var.orgId2
     type  = "string"
   }
-  properties {
+  property {
     name  = "apiKey2"
     value = var.apiKey2
     type  = "string"
   }
-  properties {
+  property {
     name  = "trueIdUsername"
     value = var.trueIdUsername
     type  = "string"
   }
-  properties {
+  property {
     name  = "trueIdPassword"
     value = var.trueIdPassword
     type  = "string"
   }
-  properties {
+  property {
     name  = "acasEndpoint"
     value = var.acasEndpoint
+    type  = "string"
+  }
+  property {
+    name  = "acuantJavascriptWebSdkScriptSource"
+    value = var.acuantJavascriptWebSdkScriptSource
+    type  = "string"
+  }
+  property {
+    name  = "externalAcuantScriptURLsLabel"
+    value = var.externalAcuantScriptURLsLabel
+    type  = "string"
+  }
+  property {
+    name  = "acuantConfigurationScript"
+    value = var.acuantConfigurationScript
+    type  = "string"
+  }
+  property {
+    name  = "acuantJavascriptWebSdkScript"
+    value = var.acuantJavascriptWebSdkScript
+    type  = "string"
+  }
+  property {
+    name  = "acuantCameraScript"
+    value = var.acuantCameraScript
+    type  = "string"
+  }
+  property {
+    name  = "acuantPassiveLivenessScript"
+    value = var.acuantPassiveLivenessScript
+    type  = "string"
+  }
+  property {
+    name  = "openCvScript"
+    value = var.openCvScript
     type  = "string"
   }
 }

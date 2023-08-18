@@ -1,67 +1,68 @@
 resource "davinci_connection" "kaizen-secure-voiz" {
-  name         = var.connector_name
-  connector_id = "kaizenVoizConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "kaizenVoizConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "apiUrl"
     value = var.apiUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "applicationName"
     value = var.applicationName
     type  = "string"
   }
-  properties {
+  property {
     name  = "connectorName"
     value = var.connectorName
     type  = "string"
   }
-  properties {
+  property {
     name  = "toolTip"
     value = var.toolTip
     type  = "string"
   }
-  properties {
+  property {
     name  = "title"
     value = var.title
     type  = "string"
   }
-  properties {
+  property {
     name  = "description"
     value = var.description
     type  = "string"
   }
-  properties {
+  property {
     name  = "authDescription"
     value = var.authDescription
     type  = "string"
   }
-  properties {
+  property {
     name  = "details1"
     value = var.details1
     type  = "string"
   }
-  properties {
+  property {
     name  = "details2"
     value = var.details2
     type  = "string"
   }
-  properties {
+  property {
     name  = "showCredAddedVia"
     value = var.showCredAddedVia
     type  = "bool"
   }
-  properties {
+  property {
     name  = "showCredAddedOn"
     value = var.showCredAddedOn
     type  = "bool"
   }
-  properties {
+  property {
     name  = "iconUrl"
     value = var.iconUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "iconUrlPng"
     value = var.iconUrlPng
     type  = "string"

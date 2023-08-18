@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "OneTrust"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "clientId" {
   description = "Client ID"
   type        = string

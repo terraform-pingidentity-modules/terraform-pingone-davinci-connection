@@ -1,22 +1,23 @@
 resource "davinci_connection" "opswat-metaaccess" {
-  name         = var.connector_name
-  connector_id = "connectorOpswat"
-  properties {
+  name           = var.connector_name
+  connector_id   = "connectorOpswat"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "clientID"
     value = var.clientID
     type  = "string"
   }
-  properties {
+  property {
     name  = "clientSecret"
     value = var.clientSecret
     type  = "string"
   }
-  properties {
+  property {
     name  = "maDomain"
     value = var.maDomain
     type  = "string"
   }
-  properties {
+  property {
     name  = "crossDomainApiPort"
     value = var.crossDomainApiPort
     type  = "string"

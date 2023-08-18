@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "Saviynt Connector Flows"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "domainName" {
   description = "Saviynt Domain Name"
   type        = string

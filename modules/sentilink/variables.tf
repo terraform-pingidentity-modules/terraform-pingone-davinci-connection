@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "SentiLink"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "apiUrl" {
   description = "API URL"
   type        = string

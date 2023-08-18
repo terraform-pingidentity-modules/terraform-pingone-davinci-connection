@@ -1,42 +1,43 @@
 resource "davinci_connection" "prove" {
-  name         = var.connector_name
-  connector_id = "payfoneConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "payfoneConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "baseUrl"
     value = var.baseUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "username"
     value = var.username
     type  = "string"
   }
-  properties {
+  property {
     name  = "password"
     value = var.password
     type  = "string"
   }
-  properties {
+  property {
     name  = "clientId"
     value = var.clientId
     type  = "string"
   }
-  properties {
+  property {
     name  = "appClientId"
     value = var.appClientId
     type  = "string"
   }
-  properties {
+  property {
     name  = "simulatorMode"
     value = var.simulatorMode
     type  = "bool"
   }
-  properties {
+  property {
     name  = "simulatorPhoneNumber"
     value = var.simulatorPhoneNumber
     type  = "string"
   }
-  properties {
+  property {
     name  = "skCallbackBaseUrl"
     value = var.skCallbackBaseUrl
     type  = "string"

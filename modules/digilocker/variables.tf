@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "DigiLocker"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "oauth2" {
   description = "Oauth2 Parameters"
   type        = string

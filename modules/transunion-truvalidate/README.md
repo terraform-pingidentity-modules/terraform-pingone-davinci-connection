@@ -3,13 +3,13 @@
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_davinci"></a> [davinci](#requirement\_davinci) | >= 0.0.7 |
+| <a name="requirement_davinci"></a> [davinci](#requirement\_davinci) | 0.1.12 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_davinci"></a> [davinci](#provider\_davinci) | 0.0.10 |
+| <a name="provider_davinci"></a> [davinci](#provider\_davinci) | 0.1.12 |
 
 ## Modules
 
@@ -19,7 +19,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [davinci_connection.transunion-truvalidate](https://registry.terraform.io/providers/samir-gandhi/davinci/latest/docs/resources/connection) | resource |
+| [davinci_connection.transunion-truvalidate](https://registry.terraform.io/providers/pingidentity/davinci/0.1.12/docs/resources/connection) | resource |
 
 ## Inputs
 
@@ -32,6 +32,7 @@ No modules.
 | <a name="input_docVerificationSecret"></a> [docVerificationSecret](#input\_docVerificationSecret) | Secret | `string` | n/a | yes |
 | <a name="input_docVerificationSiteId"></a> [docVerificationSiteId](#input\_docVerificationSiteId) | Site ID | `string` | n/a | yes |
 | <a name="input_docVerificationUsername"></a> [docVerificationUsername](#input\_docVerificationUsername) | Username | `string` | n/a | yes |
+| <a name="input_environment_id"></a> [environment\_id](#input\_environment\_id) | PingOne environment id | `string` | n/a | yes |
 | <a name="input_idVerificationPassword"></a> [idVerificationPassword](#input\_idVerificationPassword) | Password | `string` | n/a | yes |
 | <a name="input_idVerificationPublicKey"></a> [idVerificationPublicKey](#input\_idVerificationPublicKey) | Public Key | `string` | n/a | yes |
 | <a name="input_idVerificationSecret"></a> [idVerificationSecret](#input\_idVerificationSecret) | Secret | `string` | n/a | yes |

@@ -4,6 +4,11 @@ variable "connector_name" {
   default     = "Zscaler ZIA"
 }
 
+variable "environment_id" {
+  description = "PingOne environment id"
+  type        = string
+}
+
 variable "zscalerUsername" {
   description = "Zscaler Username"
   type        = string

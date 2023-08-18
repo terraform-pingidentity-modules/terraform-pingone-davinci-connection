@@ -1,112 +1,113 @@
 resource "davinci_connection" "jumio" {
-  name         = var.connector_name
-  connector_id = "jumioConnector"
-  properties {
+  name           = var.connector_name
+  connector_id   = "jumioConnector"
+  environment_id = "var.pingone_environment_id"
+  property {
     name  = "connectorName"
     value = var.connectorName
     type  = "string"
   }
-  properties {
+  property {
     name  = "authUrl"
     value = var.authUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "callbackUrl"
     value = var.callbackUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "toolTip"
     value = var.toolTip
     type  = "string"
   }
-  properties {
+  property {
     name  = "apiKey"
     value = var.apiKey
     type  = "string"
   }
-  properties {
+  property {
     name  = "clientSecret"
     value = var.clientSecret
     type  = "string"
   }
-  properties {
+  property {
     name  = "title"
     value = var.title
     type  = "string"
   }
-  properties {
+  property {
     name  = "description"
     value = var.description
     type  = "string"
   }
-  properties {
+  property {
     name  = "authDescription"
     value = var.authDescription
     type  = "string"
   }
-  properties {
+  property {
     name  = "details1"
     value = var.details1
     type  = "string"
   }
-  properties {
+  property {
     name  = "details2"
     value = var.details2
     type  = "string"
   }
-  properties {
+  property {
     name  = "showCredAddedVia"
     value = var.showCredAddedVia
     type  = "bool"
   }
-  properties {
+  property {
     name  = "showCredAddedOn"
     value = var.showCredAddedOn
     type  = "bool"
   }
-  properties {
+  property {
     name  = "iconUrl"
     value = var.iconUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "iconUrlPng"
     value = var.iconUrlPng
     type  = "string"
   }
-  properties {
+  property {
     name  = "docVerificationUrl"
     value = var.docVerificationUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "doNotShowInIframe"
     value = var.doNotShowInIframe
     type  = "bool"
   }
-  properties {
+  property {
     name  = "authorizationTokenLifetime"
     value = var.authorizationTokenLifetime
     type  = "number"
   }
-  properties {
+  property {
     name  = "baseColor"
     value = var.baseColor
     type  = "string"
   }
-  properties {
+  property {
     name  = "bgColor"
     value = var.bgColor
     type  = "string"
   }
-  properties {
+  property {
     name  = "headerImageUrl"
     value = var.headerImageUrl
     type  = "string"
   }
-  properties {
+  property {
     name  = "locale"
     value = var.locale
     type  = "string"
