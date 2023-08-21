@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "tenant" {
-  description = "IdentityNow Tenant"
+  description = "The org name is displayed within the Org Details section of the dashboard"
   type        = string
 }
 
 variable "clientId" {
-  description = "Client ID"
+  description = "Client Id for your client found in IdentityNow's Dashboard"
   type        = string
 }
 
 variable "clientSecret" {
-  description = "Client Secret"
+  description = "Client Secret from your client in IdentityNow's Dashboard"
   type        = string
 }
 

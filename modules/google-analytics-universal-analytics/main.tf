@@ -7,12 +7,10 @@ resource "davinci_connection" "google-analytics-universal-analytics" {
   property {
     name  = "version"
     value = var.connectorGoogleanalyticsUA_version
-    type  = "string"
   }
   property {
     name  = "trackingID"
     value = var.trackingID
-    type  = "string"
   }
 }
 

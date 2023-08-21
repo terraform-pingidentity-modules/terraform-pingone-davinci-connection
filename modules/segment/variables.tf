@@ -5,19 +5,19 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "writeKey" {
-  description = "Write Key"
+  description = "The Write Key is used to send data to a specific workplace"
   type        = string
 }
 
 # Connector uses terraform reserved variable 'version'. Prefixing with 'connectorSegment_'
 
 variable "connectorSegment_version" {
-  description = "HTTP Tracking API Version"
+  description = "Segment - HTTP Tracking API Version"
   type        = string
 }
 

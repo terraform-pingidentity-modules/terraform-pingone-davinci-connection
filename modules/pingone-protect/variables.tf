@@ -5,27 +5,27 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "envId" {
-  description = "Environment ID"
+  description = "Your Environment ID provided by Ping."
   type        = string
 }
 
 variable "clientId" {
-  description = "Client ID"
+  description = "The id for your Application found in Ping's Dashboard"
   type        = string
 }
 
 variable "clientSecret" {
-  description = "Client Secret"
+  description = "Client Secret from your App in Ping's Dashboard"
   type        = string
 }
 
 variable "region" {
-  description = "Region"
+  description = "The region your PingOne environment is in."
   type        = string
 }
 

@@ -5,32 +5,32 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "companyKey" {
-  description = "Company Key"
+  description = "Please enter the company key that Red Violet has assigned"
   type        = string
 }
 
 variable "apiSecret" {
-  description = "API Secret"
+  description = "Please enter your API secret that Red Violet has provided you"
   type        = string
 }
 
 variable "idiEnv" {
-  description = "Environment"
+  description = "Please choose which coreIDENTITY environment you would like to query "
   type        = string
 }
 
 variable "siteKey" {
-  description = "Site Key"
+  description = "Please enter your site key that Red Violet has provided you"
   type        = string
 }
 
 variable "uniqueUrl" {
-  description = "Unique URL"
+  description = "Please enter your unique URL that Red Violet has provided you"
   type        = string
 }
 

@@ -5,12 +5,10 @@ resource "davinci_connection" "id-r-d" {
   property {
     name  = "apiUrl"
     value = var.apiUrl
-    type  = "string"
   }
   property {
     name  = "apiKey"
     value = var.apiKey
-    type  = "string"
   }
 }
 

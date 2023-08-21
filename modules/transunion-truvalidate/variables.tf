@@ -5,112 +5,112 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "apiUrl" {
-  description = "Base URL"
+  description = "The Base API URL for TransUnion."
   type        = string
 }
 
 variable "idVerificationSiteId" {
-  description = "Site ID"
+  description = "Site ID for ID Verification, provided by TransUnion"
   type        = string
 }
 
 variable "idVerificationUsername" {
-  description = "Username"
+  description = "Username for ID Verification, provided by TransUnion"
   type        = string
 }
 
 variable "idVerificationPassword" {
-  description = "Password"
+  description = "Password for ID Verification, provided by TransUnion"
   type        = string
 }
 
 variable "idVerificationSecret" {
-  description = "Secret"
+  description = "Secret for ID Verification, provided by TransUnion"
   type        = string
 }
 
 variable "idVerificationPublicKey" {
-  description = "Public Key"
+  description = "Public Key for ID Verification, provided by TransUnion"
   type        = string
 }
 
 variable "docVerificationSiteId" {
-  description = "Site ID"
+  description = "Site ID for Document Verification, provided by TransUnion"
   type        = string
 }
 
 variable "docVerificationUsername" {
-  description = "Username"
+  description = "Username for Document Verification, provided by TransUnion"
   type        = string
 }
 
 variable "docVerificationPassword" {
-  description = "Password"
+  description = "Password for Document Verification, provided by TransUnion"
   type        = string
 }
 
 variable "docVerificationSecret" {
-  description = "Secret"
+  description = "Secret for Document Verification, provided by TransUnion"
   type        = string
 }
 
 variable "docVerificationPublicKey" {
-  description = "Public Key"
+  description = "Public Key for Document Verification, provided by TransUnion"
   type        = string
 }
 
 variable "otpSiteId" {
-  description = "Site ID"
+  description = "Site ID for otp Verification, provided by TransUnion"
   type        = string
 }
 
 variable "otpUsername" {
-  description = "Username"
+  description = "Username for otp Verification, provided by TransUnion"
   type        = string
 }
 
 variable "otpPassword" {
-  description = "Password"
+  description = "Password for otp Verification, provided by TransUnion"
   type        = string
 }
 
 variable "otpSecret" {
-  description = "Secret"
+  description = "Secret for otp Verification, provided by TransUnion"
   type        = string
 }
 
 variable "otpPublicKey" {
-  description = "Public Key"
+  description = "Public Key for otp Verification, provided by TransUnion"
   type        = string
 }
 
 variable "kbaSiteId" {
-  description = "Site ID"
+  description = "Site ID for KBA, provided by TransUnion"
   type        = string
 }
 
 variable "kbaUsername" {
-  description = "Username"
+  description = "Username for KBA, provided by TransUnion"
   type        = string
 }
 
 variable "kbaPassword" {
-  description = "Password"
+  description = "Password for KBA, provided by TransUnion"
   type        = string
 }
 
 variable "kbaSecret" {
-  description = "Secret"
+  description = "Secret for KBA, provided by TransUnion"
   type        = string
 }
 
 variable "kbaPublicKey" {
-  description = "Public Key"
+  description = "Public Key for KBA, provided by TransUnion"
   type        = string
 }
 

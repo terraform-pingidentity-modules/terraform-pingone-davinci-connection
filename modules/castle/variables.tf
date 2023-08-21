@@ -5,12 +5,12 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "apiSecret" {
-  description = "API Secret"
+  description = "Your 32-character Castle API secret, such as “Olc…QBF”."
   type        = string
 }
 

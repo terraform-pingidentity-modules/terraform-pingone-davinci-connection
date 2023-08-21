@@ -5,17 +5,14 @@ resource "davinci_connection" "crowdstrike" {
   property {
     name  = "baseURL"
     value = var.baseURL
-    type  = "string"
   }
   property {
     name  = "clientId"
     value = var.clientId
-    type  = "string"
   }
   property {
     name  = "clientSecret"
     value = var.clientSecret
-    type  = "string"
   }
 }
 

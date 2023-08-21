@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "apiUrl" {
-  description = "Base URL"
+  description = "The Base API URL for TMT Analysis."
   type        = string
 }
 
 variable "apiKey" {
-  description = "API Key"
+  description = "API Key for TMT Analysis."
   type        = string
 }
 
 variable "apiSecret" {
-  description = "API Secret"
+  description = "API Secret for TMT Analysis."
   type        = string
 }
 

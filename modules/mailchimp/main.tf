@@ -5,12 +5,10 @@ resource "davinci_connection" "mailchimp" {
   property {
     name  = "transactionalApiKey"
     value = var.transactionalApiKey
-    type  = "string"
   }
   property {
     name  = "transactionalApiVersion"
     value = var.transactionalApiVersion
-    type  = "string"
   }
 }
 

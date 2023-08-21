@@ -5,24 +5,24 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "apiKey" {
-  description = "Freshdesk API Key"
+  description = "Make sure that the \"APIkey:X\" is Base64-encoded before pasting into the text field."
   type        = string
 }
 
 variable "baseURL" {
-  description = "Freshdesk Base URL (or Domain)"
+  description = "The <tenant>.freshdesk.com URL or custom domain"
   type        = string
 }
 
 # Connector uses terraform reserved variable 'version'. Prefixing with 'connectorFreshdesk_'
 
 variable "connectorFreshdesk_version" {
-  description = "Freshdesk API Version"
+  description = "The current Freshdesk API Version"
   type        = string
 }
 

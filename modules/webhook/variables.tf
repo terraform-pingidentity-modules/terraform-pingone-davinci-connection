@@ -5,12 +5,12 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "urls" {
-  description = "Register URLs"
+  description = "POST requests will be made to these registered url as selected later."
   type        = string
 }
 

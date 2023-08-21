@@ -5,7 +5,6 @@ resource "davinci_connection" "castle" {
   property {
     name  = "apiSecret"
     value = var.apiSecret
-    type  = "string"
   }
 }
 

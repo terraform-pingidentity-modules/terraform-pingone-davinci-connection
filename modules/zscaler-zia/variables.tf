@@ -5,17 +5,17 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "zscalerUsername" {
-  description = "Zscaler Username"
+  description = "Zscaler Domain Username"
   type        = string
 }
 
 variable "zscalerPassword" {
-  description = "Zscaler Password"
+  description = "Zscaler Domain Password"
   type        = string
 }
 
@@ -25,12 +25,12 @@ variable "zscalerAPIkey" {
 }
 
 variable "baseURL" {
-  description = "Base URL"
+  description = "baseURL"
   type        = string
 }
 
 variable "basePath" {
-  description = "Base Path"
+  description = "basePath"
   type        = string
 }
 

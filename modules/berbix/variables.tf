@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "domainName" {
-  description = "Domain Name"
+  description = "Provide Berbix domain name"
   type        = string
 }
 
 variable "path" {
-  description = "Path"
+  description = "Provide path of the API"
   type        = string
 }
 
 variable "username" {
-  description = "User Name"
+  description = "Provide your Berbix user name"
   type        = string
 }
 

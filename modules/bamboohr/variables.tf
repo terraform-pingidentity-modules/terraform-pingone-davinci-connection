@@ -5,12 +5,12 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "baseUrl" {
-  description = "Base URL"
+  description = " BambooHR Base URL"
   type        = string
 }
 
@@ -20,22 +20,22 @@ variable "apiKey" {
 }
 
 variable "companySubDomain" {
-  description = "Company Sub Domain"
+  description = " Your BambooHR subdomain"
   type        = string
 }
 
 variable "flowId" {
-  description = "Flow ID"
+  description = "Select ID of the flow to execute when BambooHR sends a webhook"
   type        = string
 }
 
 variable "webhookToken" {
-  description = "Webhook Token"
+  description = "Create a webhook token and configure it in the bambooHR webhook url."
   type        = string
 }
 
 variable "skWebhookUri" {
-  description = "Singular Key Webhook URL"
+  description = "Use this url as the Webhook URL in the Third Party Integration's configuration"
   type        = string
 }
 

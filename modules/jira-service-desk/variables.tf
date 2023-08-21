@@ -5,12 +5,12 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "JIRAServiceDeskURL" {
-  description = "JIRA Service Desk URL"
+  description = "URL for JIRA Service Desk. Example: your-domain.atlassian.net"
   type        = string
 }
 
@@ -20,17 +20,17 @@ variable "JIRAServiceDeskAuth" {
 }
 
 variable "JIRAServiceDeskCreateData" {
-  description = "Raw JSON for creating new JIRA service desk request"
+  description = "Raw JSON body to create new JIRA service desk request. Example: {   \"requestParticipants\": [\"qm:a713c8ea-1075-4e30-9d96-891a7d181739:5ad6d69abfa3980ce712caae\"   ],   \"serviceDeskId\": \"10\",   \"requestTypeId\": \"25\",   \"requestFieldValues\": {     \"summary\": \"Request JSD help via REST\",     \"description\": \"I need a new *mouse* for my Mac\"   } }"
   type        = string
 }
 
 variable "JIRAServiceDeskUpdateData" {
-  description = "Raw JSON for updating JIRA service desk"
+  description = "Raw JSON body to update JIRA service desk request. Example: {\"id\": \"1\",\"additionalComment\": {\"body\": \"I have fixed the problem.\"}}"
   type        = string
 }
 
 variable "method" {
-  description = "Method"
+  description = "The HTTP Method."
   type        = string
 }
 

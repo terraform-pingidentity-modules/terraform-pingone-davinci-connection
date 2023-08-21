@@ -1,0 +1,2 @@
+javascriptCdnUrl = false
+

@@ -5,17 +5,17 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "recaptchaSiteKey" {
-  description = "reCAPTCHA v2 Site Key"
+  description = "The Site Key from reCAPTCHA Admin dashboard."
   type        = string
 }
 
 variable "recaptchaSecretKey" {
-  description = "reCAPTCHA v2 Secret Key"
+  description = "The Secret Key from reCAPTCHA Admin dashboard."
   type        = string
 }
 

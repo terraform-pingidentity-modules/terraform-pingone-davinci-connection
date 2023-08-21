@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "accessId" {
-  description = "Access ID"
+  description = "RSA Access ID from Administration API key file"
   type        = string
 }
 
 variable "accessKey" {
-  description = "Access Key"
+  description = "RSA Access Key from Administration API key file"
   type        = string
 }
 
 variable "baseUrl" {
-  description = "Base URL"
+  description = "Base URL for RSA API that is provided in Administration API key file"
   type        = string
 }
 

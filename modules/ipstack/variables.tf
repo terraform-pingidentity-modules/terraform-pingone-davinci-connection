@@ -5,17 +5,17 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "apiKey" {
-  description = "API key"
+  description = "The ipstack API key to use the service"
   type        = string
 }
 
 variable "allowInsecureIPStackConnection" {
-  description = "Allow Insecure ipstack Connection?"
+  description = "The Free IPStack Subscription Plan does not support HTTPS connections. For more information refer to https://ipstack.com/plan."
   type        = string
 }
 

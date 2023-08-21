@@ -5,17 +5,14 @@ resource "davinci_connection" "beyondtrust-privileged-remote-access" {
   property {
     name  = "praAPIurl"
     value = var.praAPIurl
-    type  = "string"
   }
   property {
     name  = "clientID"
     value = var.clientID
-    type  = "string"
   }
   property {
     name  = "clientSecret"
     value = var.clientSecret
-    type  = "string"
   }
 }
 

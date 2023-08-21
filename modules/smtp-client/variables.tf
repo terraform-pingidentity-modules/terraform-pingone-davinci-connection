@@ -5,28 +5,28 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "name" {
-  description = "Client Name"
+  description = "Optional hostname of the client, used for identifying to the server, defaults to hostname of the machine"
   type        = string
 }
 
 variable "hostname" {
-  description = "SMTP Server/Host"
+  description = "Example: smtp-relay.gmail.com"
   type        = string
 }
 
 variable "port" {
-  description = "SMTP Port"
-  type        = string
+  description = "Example: 25"
+  type        = number
 }
 
 variable "secureFlag" {
   description = "Secure Flag?"
-  type        = string
+  type        = bool
 }
 
 variable "username" {

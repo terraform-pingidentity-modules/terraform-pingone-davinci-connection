@@ -5,27 +5,27 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "adminUsername" {
-  description = "Username"
+  description = "The username of your Salesforce administrator account."
   type        = string
 }
 
 variable "consumerKey" {
-  description = "Consumer Key"
+  description = "The consumer key shown on your Salesforce connected app."
   type        = string
 }
 
 variable "privateKey" {
-  description = "Private Key"
+  description = "The private key that corresponds to the X.509 certificate you added to your Salesforce connected app."
   type        = string
 }
 
 variable "domainName" {
-  description = "Domain Name"
+  description = "Your Salesforce domain name, such as \"mycompany-dev-ed\"."
   type        = string
 }
 

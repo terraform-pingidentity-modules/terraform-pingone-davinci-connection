@@ -5,7 +5,6 @@ resource "davinci_connection" "spycloud-enterprise-protection" {
   property {
     name  = "apiKey"
     value = var.apiKey
-    type  = "string"
   }
 }
 

@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "mailgunDomain" {
-  description = "Domain"
+  description = "Name of the desired domain (e.g. mail.mycompany.com)"
   type        = string
 }
 
 variable "apiKey" {
-  description = "API Key"
+  description = "Mailgun API Key"
   type        = string
 }
 
 variable "apiVersion" {
-  description = "API Version"
+  description = "Mailgun API Version"
   type        = string
 }
 

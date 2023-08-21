@@ -5,12 +5,10 @@ resource "davinci_connection" "comply-advantage" {
   property {
     name  = "apiKey"
     value = var.apiKey
-    type  = "string"
   }
   property {
     name  = "baseUrl"
     value = var.baseUrl
-    type  = "string"
   }
 }
 

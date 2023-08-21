@@ -5,32 +5,32 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "envId" {
-  description = "Environment ID"
+  description = "Your PingOne environment ID."
   type        = string
 }
 
 variable "clientId" {
-  description = "Client ID"
+  description = "The Client ID of your PingOne Worker application."
   type        = string
 }
 
 variable "clientSecret" {
-  description = "Client Secret"
+  description = "The Client Secret of your PingOne Worker application."
   type        = string
 }
 
 variable "region" {
-  description = "Region"
+  description = "The region in which your PingOne environment exists."
   type        = string
 }
 
 variable "gatewayId" {
-  description = "Gateway ID"
+  description = "Your PingOne LDAP gateway ID."
   type        = string
 }
 

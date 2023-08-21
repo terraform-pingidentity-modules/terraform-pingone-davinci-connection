@@ -5,22 +5,18 @@ resource "davinci_connection" "pingaccess-administration" {
   property {
     name  = "basePath"
     value = var.basePath
-    type  = "string"
   }
   property {
     name  = "authUsername"
     value = var.authUsername
-    type  = "string"
   }
   property {
     name  = "authPassword"
     value = var.authPassword
-    type  = "string"
   }
   property {
     name  = "sslVerification"
     value = var.sslVerification
-    type  = "string"
   }
 }
 

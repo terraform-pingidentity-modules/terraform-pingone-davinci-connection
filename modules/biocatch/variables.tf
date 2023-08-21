@@ -5,7 +5,7 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
@@ -30,12 +30,12 @@ variable "javascriptCdnUrl" {
 }
 
 variable "truthApiUrl" {
-  description = "Truth-mapping API URL"
+  description = "Fraudulent/Genuine Session Reporting"
   type        = string
 }
 
 variable "truthApiKey" {
-  description = "Truth-mapping API Key"
+  description = "Fraudulent/Genuine Session Reporting API Key"
   type        = string
 }
 

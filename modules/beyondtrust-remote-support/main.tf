@@ -5,17 +5,14 @@ resource "davinci_connection" "beyondtrust-remote-support" {
   property {
     name  = "rsAPIurl"
     value = var.rsAPIurl
-    type  = "string"
   }
   property {
     name  = "clientID"
     value = var.clientID
-    type  = "string"
   }
   property {
     name  = "clientSecret"
     value = var.clientSecret
-    type  = "string"
   }
 }
 

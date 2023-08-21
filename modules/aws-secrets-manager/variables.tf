@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "accessKeyId" {
-  description = "AWS Access Key"
+  description = "The AWS Access Key"
   type        = string
 }
 
 variable "secretAccessKey" {
-  description = "AWS Access Secret"
+  description = "The AWS Access Secret"
   type        = string
 }
 
 variable "region" {
-  description = "AWS Region"
+  description = "The AWS Region"
   type        = string
 }
 

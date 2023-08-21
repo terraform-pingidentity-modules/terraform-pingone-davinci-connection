@@ -5,12 +5,10 @@ resource "davinci_connection" "seon" {
   property {
     name  = "licenseKey"
     value = var.licenseKey
-    type  = "string"
   }
   property {
     name  = "baseURL"
     value = var.baseURL
-    type  = "string"
   }
 }
 

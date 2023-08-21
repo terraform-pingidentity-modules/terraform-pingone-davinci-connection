@@ -5,17 +5,17 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "appKey" {
-  description = "Application Key"
+  description = "Unique key for the application"
   type        = string
 }
 
 variable "javascriptCdnUrl" {
-  description = "Javascript CDN URL"
+  description = "URL of javascript CDN of neoEYED"
   type        = string
 }
 

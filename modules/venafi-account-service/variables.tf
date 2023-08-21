@@ -5,17 +5,17 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "basePath" {
-  description = "Base Path"
+  description = "The base URL for contacting the API"
   type        = string
 }
 
 variable "authApiKey" {
-  description = "API Key"
+  description = "The authentication key to the Venafi as a Service API for Account Service Operations"
   type        = string
 }
 

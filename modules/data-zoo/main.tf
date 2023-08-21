@@ -5,12 +5,10 @@ resource "davinci_connection" "data-zoo" {
   property {
     name  = "username"
     value = var.username
-    type  = "string"
   }
   property {
     name  = "password"
     value = var.password
-    type  = "string"
   }
 }
 

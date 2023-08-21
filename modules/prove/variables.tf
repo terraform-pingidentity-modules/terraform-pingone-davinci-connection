@@ -5,7 +5,7 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
@@ -36,7 +36,7 @@ variable "appClientId" {
 
 variable "simulatorMode" {
   description = "Simulator Mode?"
-  type        = string
+  type        = bool
 }
 
 variable "simulatorPhoneNumber" {
@@ -45,7 +45,7 @@ variable "simulatorPhoneNumber" {
 }
 
 variable "skCallbackBaseUrl" {
-  description = "Callback Base URL"
+  description = "Use this url as the callback base URL"
   type        = string
 }
 

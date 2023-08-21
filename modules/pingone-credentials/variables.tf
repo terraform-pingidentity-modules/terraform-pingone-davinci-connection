@@ -5,32 +5,32 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "envId" {
-  description = "Environment ID"
+  description = "Your PingOne Environment ID."
   type        = string
 }
 
 variable "clientId" {
-  description = "Client ID"
+  description = "The Client ID of your PingOne Worker application"
   type        = string
 }
 
 variable "clientSecret" {
-  description = "Client Secret"
+  description = "The Client Secret of your PingOne Worker application"
   type        = string
 }
 
 variable "digitalWalletApplicationId" {
-  description = "Digital Wallet Application ID"
+  description = "Identifier (UUID) associated with the credential digital wallet app."
   type        = string
 }
 
 variable "region" {
-  description = "Region"
+  description = "The region your PingOne environment is in."
   type        = string
 }
 

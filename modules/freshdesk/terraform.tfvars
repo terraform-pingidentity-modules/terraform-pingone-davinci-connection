@@ -1,0 +1,2 @@
+connectorFreshdesk_version = false
+

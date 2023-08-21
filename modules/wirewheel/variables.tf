@@ -5,27 +5,27 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "baseURL" {
-  description = "WireWheel Base API URL"
+  description = "The base API URL of the WireWheel environment."
   type        = string
 }
 
 variable "issuerId" {
-  description = "Issuer URL"
+  description = "Issuer URL from WireWheel Channel settings"
   type        = string
 }
 
 variable "clientId" {
-  description = "Client ID"
+  description = "Client ID from WireWheel Channel settings"
   type        = string
 }
 
 variable "clientSecret" {
-  description = "Client Secret"
+  description = "Client Secret from WireWheel Channel settings"
   type        = string
 }
 

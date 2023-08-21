@@ -5,17 +5,14 @@ resource "davinci_connection" "servicenow" {
   property {
     name  = "apiUrl"
     value = var.apiUrl
-    type  = "string"
   }
   property {
     name  = "adminUsername"
     value = var.adminUsername
-    type  = "string"
   }
   property {
     name  = "password"
     value = var.password
-    type  = "string"
   }
 }
 

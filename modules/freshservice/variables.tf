@@ -5,17 +5,17 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "apiKey" {
-  description = "API Key"
+  description = "Your Freshservice API key."
   type        = string
 }
 
 variable "domain" {
-  description = "Domain"
+  description = "Your Freshservice domain. Example: https://domain.freshservice.com/"
   type        = string
 }
 

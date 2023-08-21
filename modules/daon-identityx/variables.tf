@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "apiUrl" {
-  description = "API Base URL"
+  description = "The protocol, host and base path to the IdX API. E.g. https://api.identityx-cloud.com/tenant1/IdentityXServices/rest/v1"
   type        = string
 }
 
 variable "username" {
-  description = "Admin Username"
+  description = "The userId to authenticate API calls."
   type        = string
 }
 
 variable "password" {
-  description = "Admin Password"
+  description = "The password of the user to authenticate API calls."
   type        = string
 }
 

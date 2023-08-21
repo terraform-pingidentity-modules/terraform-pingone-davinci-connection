@@ -5,17 +5,14 @@ resource "davinci_connection" "have-i-been-pwned" {
   property {
     name  = "apiUrl"
     value = var.apiUrl
-    type  = "string"
   }
   property {
     name  = "apiKey"
     value = var.apiKey
-    type  = "string"
   }
   property {
     name  = "userAgent"
     value = var.userAgent
-    type  = "string"
   }
 }
 

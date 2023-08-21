@@ -5,27 +5,27 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "basePath" {
-  description = "API URL"
+  description = "The base URL for the PingFederate administrative API, such as \"https://8.8.4.4:9999/pf-admin-api/v1\"."
   type        = string
 }
 
 variable "authUsername" {
-  description = "Authenticating Username"
+  description = "The username for an account that has access to the PingFederate administrative API."
   type        = string
 }
 
 variable "authPassword" {
-  description = "Authenticating Password"
+  description = "The password for an account that has access to the PingFederate administrative API."
   type        = string
 }
 
 variable "sslVerification" {
-  description = "Use SSL Verification"
+  description = "When enabled, DaVinci verifies the PingFederate SSL certificate and uses encrypted communication."
   type        = string
 }
 

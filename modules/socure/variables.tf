@@ -5,32 +5,32 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "apiKey" {
-  description = "ID+ Key"
+  description = "ID+ Key is the API key that you can retrieve from Socure Admin Portal"
   type        = string
 }
 
 variable "sdkKey" {
-  description = "SDK Key"
+  description = "SDK Key that you can retrieve from Socure Admin Portal"
   type        = string
 }
 
 variable "baseUrl" {
-  description = "API URL"
+  description = "The Socure API URL to target. For a custom value, select Use Custom API URL and enter a value in the Custom API URL field."
   type        = string
 }
 
 variable "customApiUrl" {
-  description = "Custom API URL"
+  description = "The URL for the Socure API, such as \"https://example.socure.com\"."
   type        = string
 }
 
 variable "skWebhookUri" {
-  description = "Webhook URL"
+  description = "Use this url as the Webhook URL in the Third Party Integration's configuration"
   type        = string
 }
 

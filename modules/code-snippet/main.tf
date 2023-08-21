@@ -5,17 +5,14 @@ resource "davinci_connection" "code-snippet" {
   property {
     name  = "code"
     value = var.code
-    type  = "string"
   }
   property {
     name  = "inputSchema"
     value = var.inputSchema
-    type  = "string"
   }
   property {
     name  = "outputSchema"
     value = var.outputSchema
-    type  = "string"
   }
 }
 

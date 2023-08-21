@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "endpoint" {
-  description = "API URL"
+  description = "The API endpoint for your Adobe Marketo instance, such as \"abc123.mktorest.com/rest\"."
   type        = string
 }
 
 variable "clientId" {
-  description = "Client ID"
+  description = "Your Adobe Marketo client ID."
   type        = string
 }
 
 variable "clientSecret" {
-  description = "Client Secret"
+  description = "Your Adobe Marketo client secret."
   type        = string
 }
 

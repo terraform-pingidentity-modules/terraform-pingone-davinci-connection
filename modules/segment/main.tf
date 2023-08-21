@@ -7,12 +7,10 @@ resource "davinci_connection" "segment" {
   property {
     name  = "writeKey"
     value = var.writeKey
-    type  = "string"
   }
   property {
     name  = "version"
     value = var.connectorSegment_version
-    type  = "string"
   }
 }
 

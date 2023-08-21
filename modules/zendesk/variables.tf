@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "subdomain" {
-  description = "Subdomain"
+  description = "Your Zendesk subdomain (ex. {subdomain}.zendesk.com/api/v2/...)"
   type        = string
 }
 
 variable "emailUsername" {
-  description = "Email of User (username)"
+  description = "Email used as 'username' for your Zendesk account"
   type        = string
 }
 
 variable "apiToken" {
-  description = "Zendesk API Token"
+  description = "An Active Zendesk API Token (admin center->Apps&Integrations->Zendesk API)"
   type        = string
 }
 

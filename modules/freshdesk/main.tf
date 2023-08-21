@@ -7,17 +7,14 @@ resource "davinci_connection" "freshdesk" {
   property {
     name  = "apiKey"
     value = var.apiKey
-    type  = "string"
   }
   property {
     name  = "baseURL"
     value = var.baseURL
-    type  = "string"
   }
   property {
     name  = "version"
     value = var.connectorFreshdesk_version
-    type  = "string"
   }
 }
 

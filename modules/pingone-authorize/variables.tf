@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "clientId" {
-  description = "Client ID"
+  description = "The Client ID of your PingOne Worker application"
   type        = string
 }
 
 variable "clientSecret" {
-  description = "Client Secret"
+  description = "The Client Secret of your PingOne Worker application"
   type        = string
 }
 
 variable "endpointURL" {
-  description = "Endpoint URL"
+  description = "The url of the decision endpoint to submit a decision request to"
   type        = string
 }
 

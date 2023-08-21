@@ -5,17 +5,17 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "licenseKey" {
-  description = "License Key"
+  description = "Your SEON license key. For help, see the SEON REST API documentation."
   type        = string
 }
 
 variable "baseURL" {
-  description = "API Base URL"
+  description = "The API URL to target."
   type        = string
 }
 

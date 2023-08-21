@@ -5,12 +5,10 @@ resource "davinci_connection" "idemia" {
   property {
     name  = "baseUrl"
     value = var.baseUrl
-    type  = "string"
   }
   property {
     name  = "apikey"
     value = var.apikey
-    type  = "string"
   }
 }
 

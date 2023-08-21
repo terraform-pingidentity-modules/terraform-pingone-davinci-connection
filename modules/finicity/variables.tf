@@ -5,27 +5,27 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "partnerId" {
-  description = "Partner ID"
+  description = "The partner id you can obtain from your Finicity developer dashboard"
   type        = string
 }
 
 variable "partnerSecret" {
-  description = "Partner Secret"
+  description = "Partner Secret from Finicity Developer Portal"
   type        = string
 }
 
 variable "appKey" {
-  description = "Finicity App Key"
+  description = "Finicity App Key from Finicity Developer Portal"
   type        = string
 }
 
 variable "baseUrl" {
-  description = "Base URL"
+  description = "Base URL for Finicity API"
   type        = string
 }
 

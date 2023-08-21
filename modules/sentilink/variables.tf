@@ -5,7 +5,7 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
@@ -15,12 +15,12 @@ variable "apiUrl" {
 }
 
 variable "account" {
-  description = "Account ID"
+  description = "Account ID of SentiLink"
   type        = string
 }
 
 variable "token" {
-  description = "Token ID"
+  description = "Token ID for SentiLink account."
   type        = string
 }
 

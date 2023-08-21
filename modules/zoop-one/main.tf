@@ -5,17 +5,14 @@ resource "davinci_connection" "zoop-one" {
   property {
     name  = "apiUrl"
     value = var.apiUrl
-    type  = "string"
   }
   property {
     name  = "apiKey"
     value = var.apiKey
-    type  = "string"
   }
   property {
     name  = "agencyId"
     value = var.agencyId
-    type  = "string"
   }
 }
 

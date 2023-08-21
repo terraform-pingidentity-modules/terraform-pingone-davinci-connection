@@ -5,27 +5,27 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "domainName" {
-  description = "Saviynt Domain Name"
+  description = "Provide your Saviynt domain name"
   type        = string
 }
 
 variable "path" {
-  description = "Saviynt Path Name"
+  description = "Provide your Saviynt path name"
   type        = string
 }
 
 variable "saviyntUserName" {
-  description = "Saviynt User Name"
+  description = "Provide your Saviynt user name"
   type        = string
 }
 
 variable "saviyntPassword" {
-  description = "Saviynt Password"
+  description = "Provide your Saviynt password"
   type        = string
 }
 

@@ -10,6 +10,9 @@ description: |-
 
 This PingOne module provides ability to manage DaVinci connections with an associated scheme.
 
+Note: All the submodules have been built from an automated script parsing DaVinci's connector schema.  There are some connectors with 
+complex attribute types that aren't built using the automated script.
+
 ## Getting Started
 
 To get started using the PingOne Terraform provider, first you'll need an active PingOne cloud subscription with the DaVinci service.  Refer to the

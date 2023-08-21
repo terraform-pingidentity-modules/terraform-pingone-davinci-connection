@@ -5,34 +5,34 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "accessToken" {
-  description = "Access Token"
+  description = "WhatsApp Access Token"
   type        = string
 }
 
 # Connector uses terraform reserved variable 'version'. Prefixing with 'connectorWhatsAppBusiness_'
 
 variable "connectorWhatsAppBusiness_version" {
-  description = "Version"
+  description = "WhatsApp Graph API Version"
   type        = string
 }
 
 variable "appSecret" {
-  description = "App Secret"
+  description = "WhatsApp App Secret for the application, it is used to verify the webhook signatures."
   type        = string
 }
 
 variable "verifyToken" {
-  description = "Webhook Verify Token"
+  description = "Meta webhook verify token"
   type        = string
 }
 
 variable "skWebhookUri" {
-  description = "Redirect Webhook URI"
+  description = "Use this url as the Webhook URL in the Third Party Integration's configuration"
   type        = string
 }
 

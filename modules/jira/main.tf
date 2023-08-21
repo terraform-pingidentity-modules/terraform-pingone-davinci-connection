@@ -5,17 +5,14 @@ resource "davinci_connection" "jira" {
   property {
     name  = "apiUrl"
     value = var.apiUrl
-    type  = "string"
   }
   property {
     name  = "email"
     value = var.email
-    type  = "string"
   }
   property {
     name  = "apiKey"
     value = var.apiKey
-    type  = "string"
   }
 }
 

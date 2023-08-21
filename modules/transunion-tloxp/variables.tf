@@ -5,32 +5,32 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "apiUrl" {
-  description = "API URL"
+  description = "The URL for your TransUnion API. Unnecessary to change unless you're testing against a demo tenant."
   type        = string
 }
 
 variable "username" {
-  description = "Username"
+  description = "The username for your API user."
   type        = string
 }
 
 variable "password" {
-  description = "Password"
+  description = "The password for your API User"
   type        = string
 }
 
 variable "dppaCode" {
-  description = "DPPA Purpose Code"
+  description = "The DPPA code that determines the level of data access in the API."
   type        = string
 }
 
 variable "glbCode" {
-  description = "GLB Purpose Code"
+  description = "The GLB code that determines the level of data access in the API."
   type        = string
 }
 

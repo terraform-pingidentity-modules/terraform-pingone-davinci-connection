@@ -5,17 +5,14 @@ resource "davinci_connection" "google-workspace-admin" {
   property {
     name  = "iss"
     value = var.iss
-    type  = "string"
   }
   property {
     name  = "sub"
     value = var.sub
-    type  = "string"
   }
   property {
     name  = "privateKey"
     value = var.privateKey
-    type  = "string"
   }
 }
 

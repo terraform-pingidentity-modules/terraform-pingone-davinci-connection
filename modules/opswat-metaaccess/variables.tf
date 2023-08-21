@@ -5,27 +5,27 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "clientID" {
-  description = "Oauth Client Key"
+  description = "Oauth client key for authenticating API calls with MetaAccess."
   type        = string
 }
 
 variable "clientSecret" {
-  description = "Oauth Client Secret"
+  description = "Oauth client secret for authenticating API calls with MetaAccess."
   type        = string
 }
 
 variable "maDomain" {
-  description = "MetaAccess Domain"
+  description = "MetaAccess domain for your environment."
   type        = string
 }
 
 variable "crossDomainApiPort" {
-  description = "Cross-Domain API Port"
+  description = "MetaAccess Cross-Domain API integration port."
   type        = string
 }
 

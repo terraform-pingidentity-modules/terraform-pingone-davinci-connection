@@ -5,17 +5,14 @@ resource "davinci_connection" "pingone-authorize" {
   property {
     name  = "clientId"
     value = var.clientId
-    type  = "string"
   }
   property {
     name  = "clientSecret"
     value = var.clientSecret
-    type  = "string"
   }
   property {
     name  = "endpointURL"
     value = var.endpointURL
-    type  = "string"
   }
 }
 

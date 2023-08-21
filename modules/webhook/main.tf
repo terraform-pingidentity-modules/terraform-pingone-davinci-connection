@@ -5,7 +5,6 @@ resource "davinci_connection" "webhook" {
   property {
     name  = "urls"
     value = var.urls
-    type  = "string"
   }
 }
 

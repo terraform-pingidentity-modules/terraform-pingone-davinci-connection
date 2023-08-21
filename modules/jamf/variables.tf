@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "jamfUsername" {
-  description = "JAMF Username"
+  description = "Enter Username for token"
   type        = string
 }
 
 variable "jamfPassword" {
-  description = "JAMF Password"
+  description = "Enter Password for token"
   type        = string
 }
 
 variable "serverName" {
-  description = "Server Name"
+  description = "Enter Server Name for Base URL"
   type        = string
 }
 

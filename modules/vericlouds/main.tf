@@ -5,12 +5,10 @@ resource "davinci_connection" "vericlouds" {
   property {
     name  = "apikey"
     value = var.apikey
-    type  = "string"
   }
   property {
     name  = "apiSecret"
     value = var.apiSecret
-    type  = "string"
   }
 }
 

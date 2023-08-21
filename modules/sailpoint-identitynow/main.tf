@@ -5,17 +5,14 @@ resource "davinci_connection" "sailpoint-identitynow" {
   property {
     name  = "tenant"
     value = var.tenant
-    type  = "string"
   }
   property {
     name  = "clientId"
     value = var.clientId
-    type  = "string"
   }
   property {
     name  = "clientSecret"
     value = var.clientSecret
-    type  = "string"
   }
 }
 

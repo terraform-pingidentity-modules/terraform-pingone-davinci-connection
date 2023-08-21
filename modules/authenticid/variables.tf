@@ -5,52 +5,52 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "baseUrl" {
-  description = "Base URL"
+  description = "AuthenticID API URL for sandbox/production environments"
   type        = string
 }
 
 variable "apiUrl" {
-  description = "REST API URL"
+  description = "AuthenticID REST API URL for sandbox/production environments"
   type        = string
 }
 
 variable "accountAccessKey" {
-  description = "Account Access Key"
+  description = "Your Account Access Key provided by AuthenticID "
   type        = string
 }
 
 variable "secretToken" {
-  description = "Secret Token"
+  description = "Your Secret Token provided by AuthenticID"
   type        = string
 }
 
 variable "clientCertificate" {
-  description = "Client Certificate"
+  description = "Your Client Certificate provided by AuthenticID"
   type        = string
 }
 
 variable "clientKey" {
-  description = "Client Key"
+  description = "Your Client Key provided by AuthenticID"
   type        = string
 }
 
 variable "passphrase" {
-  description = "Certificate Passphrase"
+  description = "Your Certificate Passphrase provided by AuthenticID"
   type        = string
 }
 
 variable "iOSSDKLicenseKey" {
-  description = "iOS SDK Licence Key"
+  description = "License key is whitelisted for specific bundle id"
   type        = string
 }
 
 variable "androidSDKLicenseKey" {
-  description = "Android SDK Licence Key"
+  description = "License key is whitelisted for specific package name"
   type        = string
 }
 

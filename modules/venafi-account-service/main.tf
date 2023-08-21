@@ -5,12 +5,10 @@ resource "davinci_connection" "venafi-account-service" {
   property {
     name  = "basePath"
     value = var.basePath
-    type  = "string"
   }
   property {
     name  = "authApiKey"
     value = var.authApiKey
-    type  = "string"
   }
 }
 

@@ -5,7 +5,7 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
@@ -55,12 +55,12 @@ variable "javascriptCSSUrl" {
 }
 
 variable "logo" {
-  description = "Logo"
+  description = "You can use a custom logo by simply passing a relative link, absolute path or data URI to your logo. If you do not want a logo to show pass the logo attribute as null"
   type        = string
 }
 
 variable "customTitle" {
-  description = "Custom Title"
+  description = "Specify a custom title to be shown. Defaults to show an iProov-generated message. Set to empty string \"\" to hide the message entirely. "
   type        = string
 }
 
@@ -70,43 +70,43 @@ variable "startScreenTitle" {
 }
 
 variable "color1" {
-  description = "Loading Tint Color"
+  description = "Ex. #000000"
   type        = string
 }
 
 variable "color2" {
-  description = "Not Ready Tint Color"
+  description = "Ex. #000000"
   type        = string
 }
 
 variable "color3" {
-  description = "Ready Tint Color"
+  description = "Ex. #000000"
   type        = string
 }
 
 variable "color4" {
-  description = "Liveness Tint Color"
+  description = "Ex. #000000"
   type        = string
 }
 
 variable "showCountdown" {
   description = "Show Countdown"
-  type        = string
+  type        = bool
 }
 
 variable "allowLandscape" {
   description = "Allow Landscape"
-  type        = string
+  type        = bool
 }
 
 variable "enableCameraSelector" {
   description = "Enable Camera Selector"
-  type        = string
+  type        = bool
 }
 
 variable "kioskMode" {
   description = "Kiosk Mode"
-  type        = string
+  type        = bool
 }
 
 variable "title" {
@@ -136,12 +136,12 @@ variable "details2" {
 
 variable "showCredAddedVia" {
   description = "Show Credentials Added through ?"
-  type        = string
+  type        = bool
 }
 
 variable "showCredAddedOn" {
   description = "Show Credentials Added On?"
-  type        = string
+  type        = bool
 }
 
 variable "iconUrl" {

@@ -5,17 +5,17 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "prismaUsername" {
-  description = "Prisma - Access Key"
+  description = "Access Key"
   type        = string
 }
 
 variable "prismaPassword" {
-  description = "Prisma - Secret Key"
+  description = "Secret Key"
   type        = string
 }
 

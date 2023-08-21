@@ -5,12 +5,10 @@ resource "davinci_connection" "neoeyed" {
   property {
     name  = "appKey"
     value = var.appKey
-    type  = "string"
   }
   property {
     name  = "javascriptCdnUrl"
     value = var.javascriptCdnUrl
-    type  = "string"
   }
 }
 

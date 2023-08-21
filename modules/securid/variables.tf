@@ -5,17 +5,17 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "apiUrl" {
-  description = "SecurID Authentication API REST URL"
+  description = "The URL of your SecurID authentication API, such as \"https://company.auth.securid.com\""
   type        = string
 }
 
 variable "clientKey" {
-  description = "Client Key"
+  description = "Your SecurID authentication client key, such as \"vowc450ahs6nry66vok0pvaizwnfr43ewsqcm7tz\"."
   type        = string
 }
 

@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "basePath" {
-  description = "API URL"
+  description = "The base URL for contacting the Datadog API, such as \"https://api.us3.datadoghq.com\"."
   type        = string
 }
 
 variable "authApiKey" {
-  description = "Authentication API Key"
+  description = "The API key for an account that has access to the Datadog API."
   type        = string
 }
 
 variable "authApplicationKey" {
-  description = "Authentication Application Key"
+  description = "The Application key for an account that has access to the Datadog API."
   type        = string
 }
 

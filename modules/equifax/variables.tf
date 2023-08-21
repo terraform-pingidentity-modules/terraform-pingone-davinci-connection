@@ -5,42 +5,42 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "clientId" {
-  description = "Client ID"
+  description = "When you Create a New App, Equifax will assign a Client ID per environment for the API Product"
   type        = string
 }
 
 variable "clientSecret" {
-  description = "Client Secret"
+  description = "When you Create a New App, Equifax will assign a Client Secret per environment for the API Product"
   type        = string
 }
 
 variable "baseUrl" {
-  description = "Base URL"
+  description = "Base URL for Equifax API"
   type        = string
 }
 
 variable "username" {
-  description = "Username for SOAP API"
+  description = "Username provided by Equifax for SOAP API"
   type        = string
 }
 
 variable "password" {
-  description = "Password for SOAP API"
+  description = "Password provided by Equifax for SOAP API"
   type        = string
 }
 
 variable "equifaxSoapApiEnvironment" {
-  description = "SOAP API Environment"
+  description = "SOAP API WSDL Environment."
   type        = string
 }
 
 variable "memberNumber" {
-  description = "Member Number"
+  description = "Unique Identifier of Customer. Please contact Equifax Sales Representative during client onboarding for this value."
   type        = string
 }
 

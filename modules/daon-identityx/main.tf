@@ -5,17 +5,14 @@ resource "davinci_connection" "daon-identityx" {
   property {
     name  = "apiUrl"
     value = var.apiUrl
-    type  = "string"
   }
   property {
     name  = "username"
     value = var.username
-    type  = "string"
   }
   property {
     name  = "password"
     value = var.password
-    type  = "string"
   }
 }
 

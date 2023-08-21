@@ -5,27 +5,22 @@ resource "davinci_connection" "zscaler-zia" {
   property {
     name  = "zscalerUsername"
     value = var.zscalerUsername
-    type  = "string"
   }
   property {
     name  = "zscalerPassword"
     value = var.zscalerPassword
-    type  = "string"
   }
   property {
     name  = "zscalerAPIkey"
     value = var.zscalerAPIkey
-    type  = "string"
   }
   property {
     name  = "baseURL"
     value = var.baseURL
-    type  = "string"
   }
   property {
     name  = "basePath"
     value = var.basePath
-    type  = "string"
   }
 }
 

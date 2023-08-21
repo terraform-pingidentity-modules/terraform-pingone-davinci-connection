@@ -7,27 +7,22 @@ resource "davinci_connection" "whatsapp-for-business" {
   property {
     name  = "accessToken"
     value = var.accessToken
-    type  = "string"
   }
   property {
     name  = "version"
     value = var.connectorWhatsAppBusiness_version
-    type  = "string"
   }
   property {
     name  = "appSecret"
     value = var.appSecret
-    type  = "string"
   }
   property {
     name  = "verifyToken"
     value = var.verifyToken
-    type  = "string"
   }
   property {
     name  = "skWebhookUri"
     value = var.skWebhookUri
-    type  = "string"
   }
 }
 

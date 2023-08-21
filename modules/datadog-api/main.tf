@@ -5,17 +5,14 @@ resource "davinci_connection" "datadog-api" {
   property {
     name  = "basePath"
     value = var.basePath
-    type  = "string"
   }
   property {
     name  = "authApiKey"
     value = var.authApiKey
-    type  = "string"
   }
   property {
     name  = "authApplicationKey"
     value = var.authApplicationKey
-    type  = "string"
   }
 }
 

@@ -5,12 +5,10 @@ resource "davinci_connection" "entrust" {
   property {
     name  = "serviceDomain"
     value = var.serviceDomain
-    type  = "string"
   }
   property {
     name  = "applicationId"
     value = var.applicationId
-    type  = "string"
   }
 }
 

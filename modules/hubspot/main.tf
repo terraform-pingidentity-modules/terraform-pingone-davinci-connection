@@ -5,7 +5,6 @@ resource "davinci_connection" "hubspot" {
   property {
     name  = "bearerToken"
     value = var.bearerToken
-    type  = "string"
   }
 }
 

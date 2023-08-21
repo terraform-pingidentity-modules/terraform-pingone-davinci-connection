@@ -5,12 +5,10 @@ resource "davinci_connection" "ipstack" {
   property {
     name  = "apiKey"
     value = var.apiKey
-    type  = "string"
   }
   property {
     name  = "allowInsecureIPStackConnection"
     value = var.allowInsecureIPStackConnection
-    type  = "string"
   }
 }
 

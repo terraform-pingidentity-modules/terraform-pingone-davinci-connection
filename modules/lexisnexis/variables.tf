@@ -5,87 +5,87 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "apiUrl" {
-  description = "API Base URL"
+  description = "The Base URL for Phone Finder, ID Verification and ThreatMetrix Capability for LexisNexis."
   type        = string
 }
 
 variable "orgId" {
-  description = "Organization ID"
+  description = "Organization ID provided by LexisNexis."
   type        = string
 }
 
 variable "apiKey" {
-  description = "API Key"
+  description = "API Key provided by LexisNexis."
   type        = string
 }
 
 variable "javascriptCdnUrl" {
-  description = "Javascript CDN URL"
+  description = "This script is used for ThreatMetrix Profiling."
   type        = string
 }
 
 variable "apiUrl2" {
-  description = "API Base URL"
+  description = "The Base URL for OTP Verification, KBA and Document Verification for LexisNexis API."
   type        = string
 }
 
 variable "accountId" {
-  description = "Account ID"
+  description = "Account ID provided by LexisNexis."
   type        = string
 }
 
 variable "username" {
-  description = "Username"
+  description = "Account Username provided by LexisNexis for OTP, KBA or Document Verification"
   type        = string
 }
 
 variable "password" {
-  description = "Password"
+  description = "Account Password provided by LexisNexis for OTP, KBA or Document Verification"
   type        = string
 }
 
 variable "apiUrl3" {
-  description = "API Base URL"
+  description = "The Base URL for Emailage using LexisNexis."
   type        = string
 }
 
 variable "clientId" {
-  description = "Client ID"
+  description = "Account SID for Emailage provided by LexisNexis."
   type        = string
 }
 
 variable "clientSecret" {
-  description = "Client Secret"
+  description = "OAuth Secret for Emailage provided by LexisNexis."
   type        = string
 }
 
 variable "apiUrl4" {
-  description = "API Base URL"
+  description = "The Base URL for Emailage using LexisNexis. Remember to add the / in the end."
   type        = string
 }
 
 variable "orgId2" {
-  description = "Organization ID"
+  description = "Organization ID provided by LexisNexis."
   type        = string
 }
 
 variable "apiKey2" {
-  description = "API Key"
+  description = "API Key provided by LexisNexis."
   type        = string
 }
 
 variable "trueIdUsername" {
-  description = "Username"
+  description = "Account Username provided by LexisNexis for True ID"
   type        = string
 }
 
 variable "trueIdPassword" {
-  description = "Password"
+  description = "Account Password provided by LexisNexis for True ID"
   type        = string
 }
 
@@ -95,37 +95,37 @@ variable "acasEndpoint" {
 }
 
 variable "acuantJavascriptWebSdkScriptSource" {
-  description = "Acuant JavaScript Web SDK Script Source"
+  description = "Select the version of the Acuant scripts that you want to use, or use your own copy of the scripts by selecting Use External Acuant Script URLs."
   type        = string
 }
 
 variable "externalAcuantScriptURLsLabel" {
-  description = "External Acuant Script URLs"
+  description = "Provide the location of externally-hosted Acuant scripts. Note: The connector supports version 11.5.0 and later."
   type        = string
 }
 
 variable "acuantConfigurationScript" {
-  description = "Configuration Script"
+  description = "The URL for the Acuant configuration script, such as \"https://myhost.com/configuration.js.\""
   type        = string
 }
 
 variable "acuantJavascriptWebSdkScript" {
-  description = "Javascript Web SDK Script"
+  description = "Tooltip: The URL for the Acuant JavaScript Web SDK, such as \"https://myhost.com/AcuantJavascriptWebSdk.min.js\"."
   type        = string
 }
 
 variable "acuantCameraScript" {
-  description = "Camera Script"
+  description = "The URL for the Acuant camera script, such as \"https://myhost.com/AcuantCamera.min.js\"."
   type        = string
 }
 
 variable "acuantPassiveLivenessScript" {
-  description = "Passive Liveness Script"
+  description = "The URL for the Acuant passive liveness script, such as \"https://myhost.com/AcuantPassiveLiveness.min.js\"."
   type        = string
 }
 
 variable "openCvScript" {
-  description = "Open CV Script"
+  description = "The URL for the Acuant Open CV script, such as \"https://myhost.com/opencv.min.js\"."
   type        = string
 }
 

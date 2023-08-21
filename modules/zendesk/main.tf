@@ -5,17 +5,14 @@ resource "davinci_connection" "zendesk" {
   property {
     name  = "subdomain"
     value = var.subdomain
-    type  = "string"
   }
   property {
     name  = "emailUsername"
     value = var.emailUsername
-    type  = "string"
   }
   property {
     name  = "apiToken"
     value = var.apiToken
-    type  = "string"
   }
 }
 

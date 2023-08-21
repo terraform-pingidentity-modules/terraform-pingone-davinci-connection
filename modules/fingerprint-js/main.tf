@@ -5,17 +5,14 @@ resource "davinci_connection" "fingerprint-js" {
   property {
     name  = "token"
     value = var.token
-    type  = "string"
   }
   property {
     name  = "apiToken"
     value = var.apiToken
-    type  = "string"
   }
   property {
     name  = "javascriptCdnUrl"
     value = var.javascriptCdnUrl
-    type  = "string"
   }
 }
 

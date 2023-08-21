@@ -5,12 +5,10 @@ resource "davinci_connection" "cloudflare" {
   property {
     name  = "accountId"
     value = var.accountId
-    type  = "string"
   }
   property {
     name  = "apiToken"
     value = var.apiToken
-    type  = "string"
   }
 }
 

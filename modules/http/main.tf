@@ -5,17 +5,14 @@ resource "davinci_connection" "http" {
   property {
     name  = "recaptchaSiteKey"
     value = var.recaptchaSiteKey
-    type  = "string"
   }
   property {
     name  = "recaptchaSecretKey"
     value = var.recaptchaSecretKey
-    type  = "string"
   }
   property {
     name  = "connectionId"
     value = var.connectionId
-    type  = "string"
   }
 }
 

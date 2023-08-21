@@ -5,17 +5,14 @@ resource "davinci_connection" "aws-secrets-manager" {
   property {
     name  = "accessKeyId"
     value = var.accessKeyId
-    type  = "string"
   }
   property {
     name  = "secretAccessKey"
     value = var.secretAccessKey
-    type  = "string"
   }
   property {
     name  = "region"
     value = var.region
-    type  = "string"
   }
 }
 

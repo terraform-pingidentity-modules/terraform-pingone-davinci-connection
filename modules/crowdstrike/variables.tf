@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "baseURL" {
-  description = "CrowdStrike Base URL"
+  description = "The base URL of the CrowdStrike environment."
   type        = string
 }
 
 variable "clientId" {
-  description = "Client ID"
+  description = "The Client ID of the application in CrowdStrike."
   type        = string
 }
 
 variable "clientSecret" {
-  description = "Client Secret"
+  description = "The Client Secret provided by CrowdStrike."
   type        = string
 }
 

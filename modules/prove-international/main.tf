@@ -5,27 +5,22 @@ resource "davinci_connection" "prove-international" {
   property {
     name  = "baseUrl"
     value = var.baseUrl
-    type  = "string"
   }
   property {
     name  = "username"
     value = var.username
-    type  = "string"
   }
   property {
     name  = "password"
     value = var.password
-    type  = "string"
   }
   property {
     name  = "clientId"
     value = var.clientId
-    type  = "string"
   }
   property {
     name  = "grantType"
     value = var.grantType
-    type  = "string"
   }
 }
 

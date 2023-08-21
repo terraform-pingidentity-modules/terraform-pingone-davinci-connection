@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "apiUrl" {
-  description = "Base Url"
+  description = "Base URL of the Jira instance."
   type        = string
 }
 
 variable "email" {
-  description = "Email Address"
+  description = "Email used for your Jira account."
   type        = string
 }
 
 variable "apiKey" {
-  description = "Jira API token"
+  description = "You may need to create a token from Jira with your credentials, if you haven't created one."
   type        = string
 }
 

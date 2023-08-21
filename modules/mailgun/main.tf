@@ -5,17 +5,14 @@ resource "davinci_connection" "mailgun" {
   property {
     name  = "mailgunDomain"
     value = var.mailgunDomain
-    type  = "string"
   }
   property {
     name  = "apiKey"
     value = var.apiKey
-    type  = "string"
   }
   property {
     name  = "apiVersion"
     value = var.apiVersion
-    type  = "string"
   }
 }
 

@@ -5,17 +5,14 @@ resource "davinci_connection" "paloalto-prisma-connector" {
   property {
     name  = "prismaUsername"
     value = var.prismaUsername
-    type  = "string"
   }
   property {
     name  = "prismaPassword"
     value = var.prismaPassword
-    type  = "string"
   }
   property {
     name  = "baseURL"
     value = var.baseURL
-    type  = "string"
   }
 }
 

@@ -5,17 +5,14 @@ resource "davinci_connection" "tmt-analysis" {
   property {
     name  = "apiUrl"
     value = var.apiUrl
-    type  = "string"
   }
   property {
     name  = "apiKey"
     value = var.apiKey
-    type  = "string"
   }
   property {
     name  = "apiSecret"
     value = var.apiSecret
-    type  = "string"
   }
 }
 

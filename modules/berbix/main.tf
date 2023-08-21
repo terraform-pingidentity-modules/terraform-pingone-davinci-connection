@@ -5,17 +5,14 @@ resource "davinci_connection" "berbix" {
   property {
     name  = "domainName"
     value = var.domainName
-    type  = "string"
   }
   property {
     name  = "path"
     value = var.path
-    type  = "string"
   }
   property {
     name  = "username"
     value = var.username
-    type  = "string"
   }
 }
 

@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "rsAPIurl" {
-  description = "RS Web API Address"
+  description = "URL of RS Appliance"
   type        = string
 }
 
 variable "clientID" {
-  description = "Client ID"
+  description = "RS API Client ID"
   type        = string
 }
 
 variable "clientSecret" {
-  description = "Client Secret"
+  description = "RS API Client Secret"
   type        = string
 }
 

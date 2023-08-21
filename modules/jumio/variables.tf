@@ -5,7 +5,7 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
@@ -66,12 +66,12 @@ variable "details2" {
 
 variable "showCredAddedVia" {
   description = "Show Credentials Added through ?"
-  type        = string
+  type        = bool
 }
 
 variable "showCredAddedOn" {
   description = "Show Credentials Added On?"
-  type        = string
+  type        = bool
 }
 
 variable "iconUrl" {
@@ -90,32 +90,32 @@ variable "docVerificationUrl" {
 }
 
 variable "doNotShowInIframe" {
-  description = "Do not show in iFrame"
-  type        = string
+  description = "If this is true, user will be redirected to the verification url and then redirected back when complete"
+  type        = bool
 }
 
 variable "authorizationTokenLifetime" {
-  description = "Time Transaction URL Valid (seconds)"
-  type        = string
+  description = "default: 1800 (30 minutes). maximum: 5184000 (60 days)"
+  type        = number
 }
 
 variable "baseColor" {
-  description = "HEX Main Color"
+  description = "Must be passed with bgColor."
   type        = string
 }
 
 variable "bgColor" {
-  description = "HEX Background Color."
+  description = "Must be passed with baseColor."
   type        = string
 }
 
 variable "headerImageUrl" {
-  description = "Custom Header Logo URL"
+  description = "Logo must be: landscape (16:9 or 4:3), min. height of 192 pixels, size 8-64 KB."
   type        = string
 }
 
 variable "locale" {
-  description = "Locale"
+  description = "Renders content in the specified language."
   type        = string
 }
 

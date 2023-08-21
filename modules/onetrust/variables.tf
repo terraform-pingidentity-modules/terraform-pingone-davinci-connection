@@ -5,17 +5,17 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "clientId" {
-  description = "Client ID"
+  description = "Your OneTrust application client ID."
   type        = string
 }
 
 variable "clientSecret" {
-  description = "Client Secret"
+  description = "Your OneTrust application client secret."
   type        = string
 }
 

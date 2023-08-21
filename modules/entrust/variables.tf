@@ -5,17 +5,17 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "serviceDomain" {
-  description = "Service Domain"
+  description = "The domain of the Entrust service. Format is '<customer>.<region>.trustedauth.com'. For example, 'mycompany.us.trustedauth.com'."
   type        = string
 }
 
 variable "applicationId" {
-  description = "Application ID"
+  description = "The application ID for the Identity as a Service application."
   type        = string
 }
 

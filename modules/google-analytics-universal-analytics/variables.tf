@@ -5,19 +5,19 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 # Connector uses terraform reserved variable 'version'. Prefixing with 'connectorGoogleanalyticsUA_'
 
 variable "connectorGoogleanalyticsUA_version" {
-  description = "Version"
+  description = "The Protocol version. The current value is '1'. This will only change when there are changes made that are not backwards compatible."
   type        = string
 }
 
 variable "trackingID" {
-  description = "Tracking ID"
+  description = "The tracking ID / web property ID. The format is UA-XXXX-Y. All collected data is associated by this ID."
   type        = string
 }
 

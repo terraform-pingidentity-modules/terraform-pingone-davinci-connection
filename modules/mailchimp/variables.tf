@@ -5,17 +5,17 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "transactionalApiKey" {
-  description = "Transactional API Key"
+  description = "The Transactional API Key is used to send data to the transactional API."
   type        = string
 }
 
 variable "transactionalApiVersion" {
-  description = "Transactional API Version"
+  description = "Mailchimp - Transactional API Version"
   type        = string
 }
 

@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "apiUrl" {
-  description = "API URL"
+  description = "The API URL to target, such as \"https://mycompany.service-now.com\"."
   type        = string
 }
 
 variable "adminUsername" {
-  description = "Username"
+  description = "Your ServiceNow administrator username."
   type        = string
 }
 
 variable "password" {
-  description = "Password"
+  description = "Your ServiceNow administrator password."
   type        = string
 }
 

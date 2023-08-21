@@ -5,7 +5,6 @@ resource "davinci_connection" "abuseipdb" {
   property {
     name  = "apiKey"
     value = var.apiKey
-    type  = "string"
   }
 }
 

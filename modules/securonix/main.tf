@@ -5,12 +5,10 @@ resource "davinci_connection" "securonix" {
   property {
     name  = "token"
     value = var.token
-    type  = "string"
   }
   property {
     name  = "domainName"
     value = var.domainName
-    type  = "string"
   }
 }
 

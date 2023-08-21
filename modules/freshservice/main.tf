@@ -5,12 +5,10 @@ resource "davinci_connection" "freshservice" {
   property {
     name  = "apiKey"
     value = var.apiKey
-    type  = "string"
   }
   property {
     name  = "domain"
     value = var.domain
-    type  = "string"
   }
 }
 

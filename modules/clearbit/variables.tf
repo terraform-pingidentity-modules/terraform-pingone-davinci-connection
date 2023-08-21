@@ -5,24 +5,24 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "apiKey" {
-  description = "API Key"
+  description = "Clearbit API Key"
   type        = string
 }
 
 # Connector uses terraform reserved variable 'version'. Prefixing with 'connectorClearbit_'
 
 variable "connectorClearbit_version" {
-  description = "Person API Version"
+  description = "Clearbit - Person API Version"
   type        = string
 }
 
 variable "riskApiVersion" {
-  description = "Risk API Version"
+  description = "Clearbit - Risk API Version"
   type        = string
 }
 

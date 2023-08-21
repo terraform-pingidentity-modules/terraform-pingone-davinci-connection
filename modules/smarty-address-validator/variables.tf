@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "authId" {
-  description = "Auth ID"
+  description = "Smarty Authentication ID (Found on 'API Keys' tab in Smarty tenant)"
   type        = string
 }
 
 variable "authToken" {
-  description = "Auth Token"
+  description = "Smarty Authentication Token (Found on 'API Keys' tab in Smarty tenant)"
   type        = string
 }
 
 variable "license" {
-  description = "License"
+  description = "Smarty License Value (Found on 'Subscriptions' tab in Smarty tenant)"
   type        = string
 }
 

@@ -5,7 +5,6 @@ resource "davinci_connection" "authomize-incident-connector" {
   property {
     name  = "apiKey"
     value = var.apiKey
-    type  = "string"
   }
 }
 

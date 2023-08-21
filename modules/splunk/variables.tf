@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "apiUrl" {
-  description = "Base URL"
+  description = "The Base API URL for Splunk."
   type        = string
 }
 
 variable "port" {
-  description = "Port"
-  type        = string
+  description = "API Server Port."
+  type        = number
 }
 
 variable "token" {
-  description = "Token"
+  description = "Splunk Token to make API requests."
   type        = string
 }
 

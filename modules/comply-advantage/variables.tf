@@ -5,17 +5,17 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "apiKey" {
-  description = "API Key"
+  description = "API Key is the API key that you can retrieve from Comply Advantage Admin Portal"
   type        = string
 }
 
 variable "baseUrl" {
-  description = "Base URL"
+  description = "Comply Advantage API URL for sandbox/production environments"
   type        = string
 }
 

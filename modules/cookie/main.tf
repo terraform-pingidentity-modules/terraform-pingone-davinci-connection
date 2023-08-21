@@ -5,7 +5,6 @@ resource "davinci_connection" "cookie" {
   property {
     name  = "hmacSigningKey"
     value = var.hmacSigningKey
-    type  = "string"
   }
 }
 

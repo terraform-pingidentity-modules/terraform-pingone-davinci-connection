@@ -5,22 +5,18 @@ resource "davinci_connection" "sentilink" {
   property {
     name  = "apiUrl"
     value = var.apiUrl
-    type  = "string"
   }
   property {
     name  = "account"
     value = var.account
-    type  = "string"
   }
   property {
     name  = "token"
     value = var.token
-    type  = "string"
   }
   property {
     name  = "javascriptCdnUrl"
     value = var.javascriptCdnUrl
-    type  = "string"
   }
 }
 

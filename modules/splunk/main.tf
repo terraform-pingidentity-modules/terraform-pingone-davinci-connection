@@ -5,17 +5,14 @@ resource "davinci_connection" "splunk" {
   property {
     name  = "apiUrl"
     value = var.apiUrl
-    type  = "string"
   }
   property {
     name  = "port"
     value = var.port
-    type  = "number"
   }
   property {
     name  = "token"
     value = var.token
-    type  = "string"
   }
 }
 

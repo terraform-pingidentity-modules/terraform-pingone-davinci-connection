@@ -5,17 +5,14 @@ resource "davinci_connection" "jamf" {
   property {
     name  = "jamfUsername"
     value = var.jamfUsername
-    type  = "string"
   }
   property {
     name  = "jamfPassword"
     value = var.jamfPassword
-    type  = "string"
   }
   property {
     name  = "serverName"
     value = var.serverName
-    type  = "string"
   }
 }
 

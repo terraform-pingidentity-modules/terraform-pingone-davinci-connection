@@ -5,7 +5,6 @@ resource "davinci_connection" "ipregistry" {
   property {
     name  = "apiKey"
     value = var.apiKey
-    type  = "string"
   }
 }
 

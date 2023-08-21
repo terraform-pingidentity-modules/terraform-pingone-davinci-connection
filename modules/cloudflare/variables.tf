@@ -5,17 +5,17 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "accountId" {
-  description = "Account ID"
+  description = "Cloudflare Account ID"
   type        = string
 }
 
 variable "apiToken" {
-  description = "API Token"
+  description = "Cloudflare API Token"
   type        = string
 }
 

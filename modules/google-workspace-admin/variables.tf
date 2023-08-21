@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "iss" {
-  description = "Service Account Email Address"
+  description = "The email address associated with the Google Workspace service, such as \"google-workspace-admin@xenon-set-123456.iam.gserviceaccount.com\""
   type        = string
 }
 
 variable "sub" {
-  description = "Admin Email Address"
+  description = "The administrator's email address."
   type        = string
 }
 
 variable "privateKey" {
-  description = "Private Key"
+  description = "The private key associated with the public key that you added to the Google Workspace service."
   type        = string
 }
 

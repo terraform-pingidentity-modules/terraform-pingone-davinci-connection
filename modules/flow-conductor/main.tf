@@ -5,17 +5,14 @@ resource "davinci_connection" "flow-conductor" {
   property {
     name  = "inputSchema"
     value = var.inputSchema
-    type  = "string"
   }
   property {
     name  = "pemPublicKey"
     value = var.pemPublicKey
-    type  = "string"
   }
   property {
     name  = "enforcedSignedToken"
     value = var.enforcedSignedToken
-    type  = "bool"
   }
 }
 

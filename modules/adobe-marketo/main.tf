@@ -5,17 +5,14 @@ resource "davinci_connection" "adobe-marketo" {
   property {
     name  = "endpoint"
     value = var.endpoint
-    type  = "string"
   }
   property {
     name  = "clientId"
     value = var.clientId
-    type  = "string"
   }
   property {
     name  = "clientSecret"
     value = var.clientSecret
-    type  = "string"
   }
 }
 

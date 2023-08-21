@@ -7,17 +7,14 @@ resource "davinci_connection" "clearbit" {
   property {
     name  = "apiKey"
     value = var.apiKey
-    type  = "string"
   }
   property {
     name  = "version"
     value = var.connectorClearbit_version
-    type  = "string"
   }
   property {
     name  = "riskApiVersion"
     value = var.riskApiVersion
-    type  = "string"
   }
 }
 

@@ -5,32 +5,32 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "SalesforceMarketingCloudURL" {
-  description = "Salesforce Marketing Cloud URL"
+  description = "URL for Salesforce Marketing Cloud. Example: https://YOUR_SUBDOMAIN.rest.marketingcloudapis.com"
   type        = string
 }
 
 variable "clientId" {
-  description = "Client ID"
+  description = "Client ID issued when you create the API integration in Installed Packages."
   type        = string
 }
 
 variable "clientSecret" {
-  description = "Client Secret"
+  description = "Client secret issued when you create the API integration in Installed Packages."
   type        = string
 }
 
 variable "scope" {
-  description = "Scope"
+  description = "Space-separated list of data-access permissions for your application."
   type        = string
 }
 
 variable "accountId" {
-  description = "Account ID"
+  description = "Account identifier, or MID, of the target business unit. Use to switch between business units. If you don’t specify account_id, the returned access token is in the context of the business unit that created the integration."
   type        = string
 }
 

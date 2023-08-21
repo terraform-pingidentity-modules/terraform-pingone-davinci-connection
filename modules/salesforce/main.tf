@@ -5,22 +5,18 @@ resource "davinci_connection" "salesforce" {
   property {
     name  = "adminUsername"
     value = var.adminUsername
-    type  = "string"
   }
   property {
     name  = "consumerKey"
     value = var.consumerKey
-    type  = "string"
   }
   property {
     name  = "privateKey"
     value = var.privateKey
-    type  = "string"
   }
   property {
     name  = "domainName"
     value = var.domainName
-    type  = "string"
   }
 }
 

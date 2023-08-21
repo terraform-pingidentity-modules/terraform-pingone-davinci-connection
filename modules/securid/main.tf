@@ -5,12 +5,10 @@ resource "davinci_connection" "securid" {
   property {
     name  = "apiUrl"
     value = var.apiUrl
-    type  = "string"
   }
   property {
     name  = "clientKey"
     value = var.clientKey
-    type  = "string"
   }
 }
 

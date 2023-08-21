@@ -5,17 +5,17 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "apikey" {
-  description = "apiKey"
+  description = "The API key assigned by VeriClouds to the customer."
   type        = string
 }
 
 variable "apiSecret" {
-  description = "apiSecret"
+  description = "The API secret assigned by VeriClouds to the customer. The secret is also used for decrypting sensitive data such as leaked passwords. It is important to never share the secret with any 3rd party."
   type        = string
 }
 

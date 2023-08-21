@@ -5,22 +5,22 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "inputSchema" {
-  description = "Input Schema"
+  description = "Follow example for JSON schema."
   type        = string
 }
 
 variable "pemPublicKey" {
-  description = "Public Key"
+  description = "pem public key"
   type        = string
 }
 
 variable "enforcedSignedToken" {
   description = "Enforce Signed Token"
-  type        = string
+  type        = bool
 }
 

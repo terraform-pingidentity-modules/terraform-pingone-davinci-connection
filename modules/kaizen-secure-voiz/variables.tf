@@ -5,12 +5,12 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "apiUrl" {
-  description = "API Server URL"
+  description = "example: http://<server_root>/ksvvoiceservice/rest/service"
   type        = string
 }
 
@@ -56,12 +56,12 @@ variable "details2" {
 
 variable "showCredAddedVia" {
   description = "Show Credentials Added through ?"
-  type        = string
+  type        = bool
 }
 
 variable "showCredAddedOn" {
   description = "Show Credentials Added On?"
-  type        = string
+  type        = bool
 }
 
 variable "iconUrl" {

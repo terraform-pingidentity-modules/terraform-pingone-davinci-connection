@@ -5,37 +5,37 @@ variable "connection_name" {
 }
 
 variable "connection_environment_id" {
-  description = "Connection PingOne environment id.  This is the PingOne environment where the DaVinci service runs."
+  description = "Connection PingOne environment id.  PingOne environment running DaVinci service."
   type        = string
 }
 
 variable "configSetName" {
-  description = "Config Set Name"
+  description = "The Config Set Name for accessing Nuance API."
   type        = string
 }
 
 variable "passphrase1" {
-  description = "Passphrase One"
+  description = "Passphrase that the user will need to speak for voice sample."
   type        = string
 }
 
 variable "passphrase2" {
-  description = "Passphrase Two"
+  description = "Passphrase that the user will need to speak for voice sample."
   type        = string
 }
 
 variable "passphrase3" {
-  description = "Passphrase Three"
+  description = "Passphrase that the user will need to speak for voice sample."
   type        = string
 }
 
 variable "passphrase4" {
-  description = "Passphrase Four"
+  description = "Passphrase that the user will need to speak for voice sample."
   type        = string
 }
 
 variable "passphrase5" {
-  description = "Passphrase Five"
+  description = "Passphrase that the user will need to speak for voice sample."
   type        = string
 }
 
@@ -76,12 +76,12 @@ variable "details2" {
 
 variable "showCredAddedVia" {
   description = "Show Credentials Added through ?"
-  type        = string
+  type        = bool
 }
 
 variable "showCredAddedOn" {
   description = "Show Credentials Added On?"
-  type        = string
+  type        = bool
 }
 
 variable "iconUrl" {
